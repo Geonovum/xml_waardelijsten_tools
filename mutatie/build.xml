@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project basedir="." name="tpod" default="main">
+
+  <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+  <taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask"/>
+
+  <property name="input.dir" value="input"/>
+  <property name="output.dir" value="output"/>
+  <property name="temp.dir" value="temp"/>
+
+  <!-- initialiseer mappen -->
+
+  <target name="init" description="Initialiseer mappen">
+    <delete dir="${output.dir}" failonerror="no" includeemptydirs="true"/>
+    <mkdir dir="${output.dir}"/>
+    <delete dir="${temp.dir}" failonerror="no" includeemptydirs="true"/>
+    <mkdir dir="${temp.dir}"/>
+  </target>
+
+  <!-- maak parameters -->
+
+  <path id="basedir" path="${basedir}"/>
+
+  <if>
+    <os family="unix"/>
+    <then>
+      <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="unix"/>
+    </then>
+    <else>
+      <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="windows">
+        <map from="${basedir}" to="file:/${basedir}"/>
+      </pathconvert>
+    </else>
+  </if>
+
+  <!-- maak mutatie.xsl -->
+
+  <target name="maak_mutatie" description="Maak mutatie.xsl">
+    <xslt in="template.xml" out="doe_mutatie.xsl" style="maak_mutatie.xsl" processor="trax" force="true">
+      <param name="base.dir" expression="${base.dir}"/>
+    </xslt>
+  </target>
+
+  <!-- doe mutatie.xsl -->
+
+  <target name="doe_mutatie" description="Doe mutatie.xsl">
+    <xslt in="template.xml" out="${temp.dir}/doe_mutatie.txt" style="doe_mutatie.xsl" processor="trax" force="true">
+      <param name="base.dir" expression="${base.dir}"/>
+    </xslt>
+  </target>
+
+  <!-- check waardelijsten bestaand -->
+
+  <target name="check_waardelijsten_bestaand" description="Check waardelijsten_bestaand">
+    <xmltask source="${temp.dir}/stap_0.xml">
+      <call path="waardelijsten">
+        <param name="versie" path="versie/text()"/>
+        <actions>
+          <xslt in="${temp.dir}/stap_0.xml" out="${output.dir}/waardelijsten @{versie}.xml" style="check_waardelijsten_bestaand.xsl" processor="trax" force="true"/>
+        </actions>
+      </call>
+    </xmltask>
+  </target>
+
+  <!-- check waardelijsten nieuw -->
+  
+  <target name="check_waardelijsten_nieuw" description="Check waardelijsten_nieuw">
+    <xmltask source="${temp.dir}/stap_1.xml">
+      <call path="waardelijsten">
+        <param name="versie" path="versie/text()"/>
+        <actions>
+          <xslt in="${temp.dir}/stap_1.xml" out="${output.dir}/waardelijsten @{versie}.xml" style="check_waardelijsten_nieuw.xsl" processor="trax" force="true"/>
+        </actions>
+      </call>
+    </xmltask>
+  </target>
+
+  <!-- totale transformatie -->
+
+  <target name="main" description="Totale transformatie" depends="init,maak_mutatie,doe_mutatie,check_waardelijsten_bestaand,check_waardelijsten_nieuw"/>
+
+</project>

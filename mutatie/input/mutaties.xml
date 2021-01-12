@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mutaties datum="2021-03-01">
+  <mutatie xpath="versie" type="vervang">
+    <versie>1.1.2</versie>
+  </mutatie>
+  <mutatie xpath="publicatiedatum" type="vervang">
+    <publicatiedatum>2021-03-01</publicatiedatum>
+  </mutatie>
+  <mutatie xpath="//waarde[label='aansluitactiviteit']/definitie" type="vervang">
+    <definitie>[nieuwste definitie]</definitie>
+  </mutatie>
+</mutaties>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" version="0.0.1">
+  <xs:element name="waardelijsten">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="versie"/>
+        <xs:element ref="publicatiedatum"/>
+        <xs:element maxOccurs="unbounded" ref="waardelijst"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="versie" type="xs:NMTOKEN"/>
+  <xs:element name="publicatiedatum" type="date"/>
+  <xs:element name="waardelijst">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="label"/>
+        <xs:element ref="term"/>
+        <xs:element ref="uri"/>
+        <xs:element ref="type"/>
+        <xs:element ref="omschrijving"/>
+        <xs:element ref="toelichting"/>
+        <xs:element ref="waarden"/>
+        <xs:element ref="domeinen"/>
+        <xs:element minOccurs="0" ref="bronnen"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="waarden">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="waarde"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="waarde">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="label"/>
+        <xs:element ref="term"/>
+        <xs:element ref="uri"/>
+        <xs:element ref="definitie"/>
+        <xs:element ref="toelichting"/>
+        <xs:element ref="bron"/>
+        <xs:element ref="domein"/>
+        <xs:element ref="specialisatie"/>
+        <xs:element ref="symboolcode"/>
+        <xs:element ref="geldigheid"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="definitie" type="xs:string"/>
+  <xs:element name="specialisatie" type="xs:anyURI"/>
+  <xs:element name="symboolcode">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geldigheid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="startdatum"/>
+        <xs:element ref="einddatum"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="startdatum" type="date" nillable="true"/>
+  <xs:element name="einddatum" type="date" nillable="true"/>
+  <xs:element name="domeinen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="domein"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="domein">
+    <xs:complexType mixed="true">
+      <xs:sequence minOccurs="0">
+        <xs:element ref="label"/>
+        <xs:element ref="term"/>
+        <xs:element ref="uri"/>
+        <xs:element ref="omschrijving"/>
+        <xs:element ref="toelichting"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bronnen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="bron"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bron">
+    <xs:complexType mixed="true">
+      <xs:sequence minOccurs="0">
+        <xs:element ref="titel"/>
+        <xs:element ref="term"/>
+        <xs:element ref="uri"/>
+        <xs:element ref="omschrijving"/>
+        <xs:element ref="href"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titel" type="xs:string"/>
+  <xs:element name="href" type="xs:anyURI"/>
+  <xs:element name="label" type="xs:string"/>
+  <xs:element name="uri" type="xs:anyURI"/>
+  <xs:element name="omschrijving" type="xs:string"/>
+  <xs:element name="toelichting" type="xs:string"/>
+  <xs:element name="term" type="xs:NCName"/>
+  <!-- typen -->
+  <xs:simpleType name="date">
+    <xs:union memberTypes="xs:date">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value=""/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+</xs:schema>

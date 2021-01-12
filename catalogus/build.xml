@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project basedir="." name="tpod" default="main">
+
+  <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+  <taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask"/>
+
+  <property name="input.dir" value="waardelijsten"/>
+  <property name="output.dir" value="export"/>
+  <property name="temp.dir" value="temp"/>
+
+  <!-- initialiseer mappen -->
+
+  <target name="init" description="Initialiseer mappen">
+    <delete dir="${output.dir}" failonerror="no" includeemptydirs="true"/>
+    <mkdir dir="${output.dir}"/>
+    <delete dir="${temp.dir}" failonerror="no" includeemptydirs="true"/>
+    <mkdir dir="${temp.dir}"/>
+  </target>
+
+  <!-- maak parameters -->
+
+  <path id="basedir" path="${input.dir}"/>
+
+  <if>
+    <os family="unix"/>
+    <then>
+      <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="unix"/>
+    </then>
+    <else>
+      <pathconvert property="base.dir" refid="basedir" dirsep="/" targetos="windows">
+        <map from="${basedir}" to="file:/${basedir}"/>
+      </pathconvert>
+    </else>
+  </if>
+
+  <!-- transformeer xml-bestanden -->
+
+  <target name="transform" description="Transformeer waardelijsten">
+    <xslt in="template.xml" out="${temp.dir}/export.xml" style="catalogus.xsl" processor="trax" force="true">
+      <param name="waardelijst.dir" expression="${base.dir}"/>
+    </xslt>
+    <xslt in="${temp.dir}/export.xml" out="${output.dir}/export.json" style="json.xsl" processor="trax" force="true"/>
+  </target>
+
+  <!-- totale transformatie -->
+
+  <target name="main" description="Totale transformatie" depends="init,transform"/>
+
+</project>

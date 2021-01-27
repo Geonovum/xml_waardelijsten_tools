@@ -2,10 +2,10 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" version="1.0" indent="yes" encoding="utf-8"/>
   <xsl:strip-space elements="*"/>
-
+  
   <xsl:param name="base.dir" select="string('file:/C:/Werkbestanden/Geonovum/mutatie')"/>
   <xsl:param name="mutaties" select="collection(concat($base.dir,'/input?select=*.xml'))/mutaties"/>
-
+  
   <xsl:template match="root">
     <xsl:element name="xsl:stylesheet">
       <xsl:namespace name="xsl" select="string('http://www.w3.org/1999/XSL/Transform')"/>
@@ -23,11 +23,11 @@
       <xsl:for-each-group select="$mutaties/mutatie[@xpath][@type]" group-by="@xpath">
         <!-- attribuut xpath en type zijn verplicht -->
         <xsl:element name="xsl:template">
-          <xsl:attribute name="match" select="@xpath"/>
+          <xsl:attribute name="match" select="current-grouping-key()"/>
           <xsl:element name="xsl:param">
             <xsl:attribute name="name" select="string('mode')"/>
           </xsl:element>
-          <xsl:for-each select="current-group()/self::mutatie">
+          <xsl:for-each-group select="current-group()" group-by="@type">
             <xsl:element name="xsl:call-template">
               <xsl:attribute name="name" select="string('doe_mutatie')"/>
               <xsl:element name="xsl:with-param">
@@ -36,7 +36,7 @@
               </xsl:element>
               <xsl:element name="xsl:with-param">
                 <xsl:attribute name="name" select="string('mutatie')"/>
-                <xsl:copy-of select="./node()"/>
+                <xsl:copy-of select="current-group()/node()"/>
               </xsl:element>
               <xsl:element name="xsl:with-param">
                 <xsl:attribute name="name" select="string('datum')"/>
@@ -44,13 +44,13 @@
               </xsl:element>
               <xsl:element name="xsl:with-param">
                 <xsl:attribute name="name" select="string('type')"/>
-                <xsl:value-of select="./@type"/>
+                <xsl:value-of select="current-grouping-key()"/>
               </xsl:element>
             </xsl:element>
-          </xsl:for-each>
+          </xsl:for-each-group>
         </xsl:element>
       </xsl:for-each-group>
     </xsl:element>
   </xsl:template>
-
+  
 </xsl:stylesheet>

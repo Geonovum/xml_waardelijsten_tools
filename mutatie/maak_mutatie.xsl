@@ -20,35 +20,36 @@
       <xsl:element name="xsl:import">
         <xsl:attribute name="href" select="string('import.xsl')"/>
       </xsl:element>
-      <xsl:for-each select="$mutaties/mutatie[@xpath][@type]">
+      <xsl:for-each-group select="$mutaties/mutatie[@xpath][@type]" group-by="@xpath">
         <!-- attribuut xpath en type zijn verplicht -->
         <xsl:element name="xsl:template">
           <xsl:attribute name="match" select="@xpath"/>
-          <xsl:attribute name="priority" select="count(.|./following-sibling::mutatie[@xpath][@type])"/>
           <xsl:element name="xsl:param">
             <xsl:attribute name="name" select="string('mode')"/>
           </xsl:element>
-          <xsl:element name="xsl:call-template">
-            <xsl:attribute name="name" select="string('doe_mutatie')"/>
-            <xsl:element name="xsl:with-param">
-              <xsl:attribute name="name" select="string('mode')"/>
-              <xsl:attribute name="select" select="string('$mode')"/>
+          <xsl:for-each select="current-group()/self::mutatie">
+            <xsl:element name="xsl:call-template">
+              <xsl:attribute name="name" select="string('doe_mutatie')"/>
+              <xsl:element name="xsl:with-param">
+                <xsl:attribute name="name" select="string('mode')"/>
+                <xsl:attribute name="select" select="string('$mode')"/>
+              </xsl:element>
+              <xsl:element name="xsl:with-param">
+                <xsl:attribute name="name" select="string('mutatie')"/>
+                <xsl:copy-of select="./node()"/>
+              </xsl:element>
+              <xsl:element name="xsl:with-param">
+                <xsl:attribute name="name" select="string('datum')"/>
+                <xsl:value-of select="$mutaties/@datum"/>
+              </xsl:element>
+              <xsl:element name="xsl:with-param">
+                <xsl:attribute name="name" select="string('type')"/>
+                <xsl:value-of select="./@type"/>
+              </xsl:element>
             </xsl:element>
-            <xsl:element name="xsl:with-param">
-              <xsl:attribute name="name" select="string('mutatie')"/>
-              <xsl:copy-of select="./node()"/>
-            </xsl:element>
-            <xsl:element name="xsl:with-param">
-              <xsl:attribute name="name" select="string('datum')"/>
-              <xsl:value-of select="$mutaties/@datum"/>
-            </xsl:element>
-            <xsl:element name="xsl:with-param">
-              <xsl:attribute name="name" select="string('type')"/>
-              <xsl:value-of select="@type"/>
-            </xsl:element>
-          </xsl:element>
+          </xsl:for-each>
         </xsl:element>
-      </xsl:for-each>
+      </xsl:for-each-group>
     </xsl:element>
   </xsl:template>
 

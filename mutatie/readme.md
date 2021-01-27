@@ -1,6 +1,6 @@
 # Readme
 De mutatie is opgebouwd uit verschillende handelingen:
-1. Stel de mutaties samen in mutatie.xml. Dit bestand legt mutaties vast met behulp van een xpath-expressie, een type-aanduiding (wijzig, voegtoe, verwijder) en de aanpassingen in de geselecteerde elementen.
+1. Stel de mutaties samen in mutatie.xml. Dit bestand legt mutaties vast met behulp van een xpath-expressie, een type-aanduiding (vervang, voegtoe, verwijder) en de aanpassingen in de geselecteerde elementen.
 2. Bestand maak_mutatie.xsl converteert bestand mutatie.xml naar doe_mutatie.xsl waarmee de mutaties doorgevoerd kunnen worden in waardelijsten.xml. Bestand doe_mutatie.xsl bestaat uit een flexibel (gegenereerd) deel en een vast deel import.xml.
 3. Bestand doe_mutatie.xsl voert twee stappen uit op de geselecteerde elementen:<br/>stap_0.xml: in de bestaande versie worden gemuteerde elementen gemarkeerd met processing-instruction \<?[type] [publicatiedatum]?\>.<br/>stap_1.xml: in een nieuwe versie worden de wijzigingen op de elementen daadwerkelijk uitgevoerd. Gemuteerde elementen worden gemarkeerd met processing-instruction \<?[type] [publicatiedatum]?\>.
 4. Bestand stap_0.xml wordt omgezet naar een aangepaste bestaande versie van waardelijsten.xml. De enige aanpassing is, dat de geldigheid/einddatum op publicatiedatum wordt gezet.

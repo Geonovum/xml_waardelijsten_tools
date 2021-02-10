@@ -96,12 +96,12 @@
     <xsl:choose>
       <xsl:when test="$startdatum castable as xs:date">
         <xsl:element name="{name()}">
-          <xsl:variable name="label" select="lower-case((./label[1]/node(),'onbekend')[1])"/>
-          <xsl:variable name="term" select="my:check_string($label)"/>
+          <xsl:variable name="label" select="lower-case((fn:tokenize(./label[1]/node(),'_')[last()],'onbekend')[1])"/>
+          <xsl:variable name="term" select="concat($specialisatie,my:check_string($label))"/>
           <xsl:variable name="domein">
             <xsl:choose>
               <xsl:when test="$specialisatie ne ''">
-                <xsl:value-of select="my:check_string($specialisatie)"/>
+                <xsl:value-of select="$specialisatie"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="fn:tokenize((ancestor::waardelijst/term[1],'Onbekend')[1],'engroep|groep')[1]"/>
@@ -110,7 +110,7 @@
           </xsl:variable>
           <xsl:variable name="uri" select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl',lower-case($domein),'id','concept',$term),'/')"/>
           <xsl:element name="label">
-            <xsl:apply-templates select="fn:tokenize($label,'_')[last()]"/>
+            <xsl:apply-templates select="$label"/>
           </xsl:element>
           <xsl:element name="term">
             <xsl:apply-templates select="$term"/>

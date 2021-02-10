@@ -76,7 +76,9 @@
                 <xsl:processing-instruction name="{$type}" select="$datum"/>
                 <xsl:copy-of select="."/>
               </xsl:for-each>
-              <xsl:copy-of select="node()"/>
+              <xsl:apply-templates select="element()">
+                <xsl:with-param name="mode" select="$mode"/>
+              </xsl:apply-templates>
             </xsl:copy>
           </xsl:when>
         </xsl:choose>

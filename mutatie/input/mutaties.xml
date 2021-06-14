@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mutaties datum="2021-03-01">
-  <mutatie xpath="versie" type="vervang">
-    <versie>1.1.2</versie>
+<mutaties datum="2021-06-15">
+  <mutatie xpath="waardelijsten/versie" type="vervang">
+    <versie>2.0.0-rc</versie>
   </mutatie>
-  <mutatie xpath="publicatiedatum" type="vervang">
-    <publicatiedatum>2021-03-01</publicatiedatum>
+  <mutatie xpath="waardelijsten/publicatiedatum" type="vervang">
+    <publicatiedatum>2021-06-15</publicatiedatum>
   </mutatie>
-  <mutatie xpath="//waarde[label='aansluitactiviteit']/definitie" type="vervang">
-    <definitie>[nieuwste definitie]</definitie>
+  <!-- symboolcodes -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Habitatrichtlijngebied']/symboolcode" type="vervang">
+    <symboolcode id="vsgt114">vsgt114</symboolcode>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Toegangsbeperkingsgebied']/symboolcode" type="vervang">
+    <symboolcode id="vsgt002">vsgt002</symboolcode>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Vogelrichtlijngebied']/symboolcode" type="vervang">
+    <symboolcode id="vsgt123">vsgt123</symboolcode>
+  </mutatie>
+  <!-- maatvoering gebruik -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep']/waarden" type="voegtoe">
+    <waarde>
+      <label>maatvoering gebruik</label>
+      <definitie>Waarde voor attribuut groep bij het object Omgevingsnorm voor het vaststellen, geometrisch begrenzen en per locatie waarden vastleggen van een omgevingsnorm voor de maatvoering van (planologisch) gebruik.</definitie>
+      <symboolcode id="vog014">vog014</symboolcode>
+    </waarde>
+  </mutatie>
+  <!-- thema -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/type" type="vervang">
+    <type>limitatief</type>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde niet gebruiken.']" type="verwijder"/>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[geldigheid/startdatum='2021-06-10']" type="verwijder"/>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde kan gebruikt worden.']/toelichting" type="vervang">
+    <toelichting/>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde kan gebruikt worden.']/domein" type="vervang">
+    <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/gezondheid/id/concept/Gezondheid']/definitie" type="vervang">
+    <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsaspecten van de leefomgeving.</definitie>
+  </mutatie>
+  <!-- thema/domeinen -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/domeinen/domein" type="verwijder"/>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/domeinen" type="voegtoe">
+    <domein>
+      <label>thema</label>
+      <term>Thema</term>
+      <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</uri>
+      <omschrijving>De aanduiding van het aspect van de fysieke leefomgeving waar de regel of de beleidstekst over gaat.</omschrijving>
+    </domein>
+  </mutatie>
+  <!-- thema/bronnen -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']//bron[uri='http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290']" type="verwijder"/>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']//bron[uri='http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291']" type="verwijder"/>
+  <!-- domeinen -->
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid']/omschrijving" type="vervang">
+    <omschrijving>Begrippen die eenheden aanduiden waarin een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Functiegroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Functie']/omschrijving" type="vervang">
+    <omschrijving>Begrippen gerelateerd aan de toedeling van functies aan locaties.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Landschapgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap']/omschrijving" type="vervang">
+    <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Luchtgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht']/omschrijving" type="vervang">
+    <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingsnorm']/omschrijving" type="vervang">
+    <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering voor aspecten van de fysieke leefomgeving aanduiden, die geen omgevingswaarde is.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingswaarde']/omschrijving" type="vervang">
+    <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering van omgevingswaarden aanduiden.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteitregelkwalificatie']/omschrijving" type="vervang">
+    <omschrijving>Begrippen die een kwalificatie geven van regels over activiteiten.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Adressaat']/omschrijving" type="vervang">
+    <omschrijving>Begrippen die het type bestuurslaag of organisatie aanduiden.</omschrijving>
+  </mutatie>
+  <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Beperkingengebiedgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Beperkingengebied']/omschrijving" type="vervang">
+    <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebieden.</omschrijving>
   </mutatie>
 </mutaties>

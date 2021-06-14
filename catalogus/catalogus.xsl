@@ -167,11 +167,14 @@
           <xsl:value-of select="$bron/uri"/>
         </xsl:element>
         <xsl:element name="titel">
+          <xsl:value-of select="$bron/titel"/>
+        </xsl:element>
+        <xsl:element name="webpagina">
           <xsl:value-of select="$bron/href"/>
         </xsl:element>
         <xsl:element name="metadata">
           <xsl:element name="uri">
-            <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'bron',$bron/term),'/')"/>
+            <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'bibliographicresource',$bron/term),'/')"/>
           </xsl:element>
           <xsl:element name="startdatumGeldigheid">
             <xsl:value-of select="$startdatum"/>
@@ -321,10 +324,9 @@
       </xsl:element>
     </xsl:element>
     <!-- alle geversioneerde domeinen zijn skos:ConceptScheme -->
-    <xsl:for-each select="fn:distinct-values($waardelijsten//waarde[./domein ne '']/concat(./domein,'|',./geldigheid/startdatum))">
-      <xsl:variable name="uri" select="fn:tokenize(.,'\|')[1]"/>
-      <xsl:variable name="startdatum" select="fn:tokenize(.,'\|')[2]"/>
-      <xsl:variable name="domein" select="($waardelijsten//waardelijst[//waarde[./domein=$uri][./geldigheid/startdatum=$startdatum]]//domein[./uri=$uri])[last()]"/>
+    <xsl:for-each select="fn:distinct-values($waardelijsten//waarde/domein)">
+      <xsl:variable name="id" select="."/>
+      <xsl:variable name="domein" select="($waardelijsten//domeinen/domein[./uri=$id])[1]"/>
       <xsl:element name="element">
         <xsl:attribute name="type" select="string('skos:ConceptScheme')"/>
         <xsl:element name="uri">
@@ -337,6 +339,18 @@
           <xsl:value-of select="$domein/omschrijving"/>
         </xsl:element>
         <xsl:element name="metadata">
+          <xsl:variable name="startdatum">
+            <!-- bepaal het eerste voorkomen -->
+            <xsl:variable name="lijst">
+              <xsl:for-each select="$waardelijsten//waarde[./domein=$id]/geldigheid/startdatum">
+                <xsl:sort select="xs:date(.)"/>
+                <xsl:element name="item">
+                  <xsl:copy-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
+            </xsl:variable>
+            <xsl:value-of select="$lijst/item[1]"/>
+          </xsl:variable>
           <xsl:element name="uri">
             <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'conceptscheme',$domein/term),'/')"/>
           </xsl:element>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<waardelijsten><?vervang 2021-06-15?>
-   <versie>2.0.0-rc</versie>
-   <?vervang 2021-06-15?>
-   <publicatiedatum>2021-06-15</publicatiedatum>
+<waardelijsten>
+   <versie>1.0.6</versie>
+   <publicatiedatum>2020-11-17</publicatiedatum>
    <waardelijst>
       <label>activiteitengroep</label>
       <term>Activiteitengroep</term>
@@ -612,21 +611,6 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>landinrichtingsactiviteit</label>
-            <term>Landinrichtingsactiviteit</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Landinrichtingsactiviteit</uri>
-            <definitie>Waarde voor attribuut groep bij het object Activiteit voor het vastleggen van een gebied waar regels gelden over de landinrichtingsactiviteit: activiteit die gevolgen heeft of kan hebben voor de uitvoering van een inrichtingsprogramma als bedoeld in artikel 3.14a Ow.</definitie>
-            <toelichting/>
-            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteit</domein>
-            <specialisatie/>
-            <symboolcode id="vag410">vag410</symboolcode>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
             <label>ligplaatsactiviteit</label>
             <term>Ligplaatsactiviteit</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Ligplaatsactiviteit</uri>
@@ -1002,21 +986,6 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>toegangsactiviteit</label>
-            <term>Toegangsactiviteit</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Toegangsactiviteit</uri>
-            <definitie>Waarde voor attribuut groep bij het object Activiteit voor het vastleggen van een gebied waar regels gelden over activiteiten waarvoor op grond van een toegangsbeperkingsbesluit in een Natura 2000-gebied een gehele of gedeeltelijke beperking of verbod geldt dan wel die van een beperking of verbod zijn uitgezonderd.</definitie>
-            <toelichting/>
-            <bron/>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteit</domein>
-            <specialisatie/>
-            <symboolcode id="vag402">vag402</symboolcode>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
             <label>uitritactiviteit</label>
             <term>Uitritactiviteit</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Uitritactiviteit</uri>
@@ -1304,8 +1273,7 @@
             <label>activiteitregelkwalificatie</label>
             <term>Activiteitregelkwalificatie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteitregelkwalificatie</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen die een kwalificatie geven van regels over activiteiten.</omschrijving>
+            <omschrijving>Betreft begrippen gerelateerd aan plichten en verboden mbt activiteiten.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -1475,8 +1443,7 @@
             <label>adressaat</label>
             <term>Adressaat</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Adressaat</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen die het type bestuurslaag of organisatie aanduiden.</omschrijving>
+            <omschrijving>Betreft begrippen die het type bestuurslag of organisatie aanduiden.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -1623,8 +1590,7 @@
             <label>beperkingengebied</label>
             <term>Beperkingengebied</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Beperkingengebied</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebieden.</omschrijving>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebiedgroep.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -1901,7 +1867,7 @@
       <term>Eenheid</term>
       <uri>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid</uri>
       <type>uitbreidbaar</type>
-      <omschrijving>Waardelijst voor attribuut eenheid, dat aangeeft in welke grootheid een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
+      <omschrijving>Waardelijst voor attribuut eenheid, dat aangeeft in welke grootheid een kwantitiatieve waarde wordt uitgedrukt.</omschrijving>
       <toelichting/>
       <waarden>
          <waarde>
@@ -1961,21 +1927,6 @@
             <symboolcode id=""/>
             <geldigheid>
                <startdatum>2020-11-17</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
-            <label>aantal</label>
-            <term>Aantal</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Aantal</uri>
-            <definitie>Waarde voor attribuut eenheid bij de objecten Omgevingsnorm en Omgevingswaarde, die aangeeft dat een kwantitatieve waarde in een aantal wordt uitgedrukt.</definitie>
-            <toelichting/>
-            <bron/>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid</domein>
-            <specialisatie/>
-            <symboolcode id=""/>
-            <geldigheid>
-               <startdatum>2021-04-20</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2280,21 +2231,6 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>nog toe te voegen</label>
-            <term>NogToeTeVoegen</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/NogToeTeVoegen</uri>
-            <definitie>Waarde voor attribuut eenheid voor de gegevensgroep Normwaarde bij de objecten Omgevingswaarde en Omgevingsnorm die gebruikt kan worden wanneer een bevoegd gezag een eigen waarde wil gebruiken.</definitie>
-            <toelichting>Deze waarde is toegevoegd om, zolang de DSO-systemen nog niet met uitbreidbare waardelijsten kunnen omgaan, duidelijk te kunnen maken dat het de bedoeling is een eigen waarde te gebruiken. (NB: Het bevoegd gezag kan een mail sturen aan omgevingswet@geonovum.nl met het verzoek om de betreffende waarde aan de waardelijst toe te voegen).</toelichting>
-            <bron/>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid</domein>
-            <specialisatie/>
-            <symboolcode id=""/>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
             <label>odour unit</label>
             <term>OdourUnit</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/OdourUnit</uri>
@@ -2405,8 +2341,7 @@
             <label>eenheid</label>
             <term>Eenheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen die eenheden aanduiden waarin een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
+            <omschrijving>Betreft begrippen die eenheden aanduiden, d.w.z. de aanduiding van de combinatie eenheid en grootheid, waarin een kwantitiatieve waarde wordt uitgedrukt.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -4437,8 +4372,7 @@
             <label>functie</label>
             <term>Functie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Functie</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen gerelateerd aan de toedeling van functies aan locaties.</omschrijving>
+            <omschrijving>Begrippen gerelateerd aan het juridische domein van functie.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -5162,8 +5096,7 @@
             <label>landschap</label>
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van cultureel erfgoed en landschap.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -5339,8 +5272,7 @@
             <label>lucht</label>
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht en lucht.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -5548,22 +5480,6 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>habitatrichtlijngebied</label>
-            <term>Habitatrichtlijngebied</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Habitatrichtlijngebied</uri>
-            <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het aanwijzen van een gebied als Natura 2000-gebied ter uitvoering van de habitatrichtlijn.</definitie>
-            <toelichting/>
-            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
-            <specialisatie/>
-            <?vervang 2021-06-15?>
-            <symboolcode id="vsgt114">vsgt114</symboolcode>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
             <label>maatregelengebied</label>
             <term>Maatregelengebied</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Maatregelengebied</uri>
@@ -5638,38 +5554,6 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <waarde>
-            <label>toegangsbeperkingsgebied</label>
-            <term>Toegangsbeperkingsgebied</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Toegangsbeperkingsgebied</uri>
-            <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het bij toegangsbeperkingsbesluit aanwijzen van een gebied waar regels gelden over de beperking of het verbod van de toegang tot een Natura 2000-gebied.</definitie>
-            <toelichting/>
-            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
-            <specialisatie/>
-            <?vervang 2021-06-15?>
-            <symboolcode id="vsgt002">vsgt002</symboolcode>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
-            <label>vogelrichtlijngebied</label>
-            <term>Vogelrichtlijngebied</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Vogelrichtlijngebied</uri>
-            <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het aanwijzen van een gebied als Natura 2000-gebied ter uitvoering van de vogelrichtlijn.</definitie>
-            <toelichting/>
-            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
-            <specialisatie/>
-            <?vervang 2021-06-15?>
-            <symboolcode id="vsgt123">vsgt123</symboolcode>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
       </waarden>
       <domeinen>
          <domein>
@@ -5697,12 +5581,7 @@
       <type>limitatief</type>
       <omschrijving>Waardelijst voor attribuut groep bij Omgevingsnorm, dat zorgt voor filteren en weergave van de symbolisatie van Omgevingsnorm op de kaart.</omschrijving>
       <toelichting/>
-      <waarden><?voegtoe 2021-06-15?>
-         <waarde>
-            <label>maatvoering gebruik</label>
-            <definitie>Waarde voor attribuut groep bij het object Omgevingsnorm voor het vaststellen, geometrisch begrenzen en per locatie waarden vastleggen van een omgevingsnorm voor de maatvoering van (planologisch) gebruik.</definitie>
-            <symboolcode id="vog014">vog014</symboolcode>
-         </waarde>
+      <waarden>
          <waarde>
             <label>bedrijvigheid</label>
             <term>Bedrijvigheid</term>
@@ -6009,8 +5888,7 @@
             <label>omgevingsnorm</label>
             <term>Omgevingsnorm</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingsnorm</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering voor aspecten van de fysieke leefomgeving aanduiden, die geen omgevingswaarde is.</omschrijving>
+            <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering aanduiden, waarbij deze geen omgevingswaarde vormen, maar waar deze wel grondslag vormen voor regelgeving en beleid.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -6150,8 +6028,7 @@
             <label>omgevingswaarde</label>
             <term>Omgevingswaarde</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingswaarde</uri>
-            <?vervang 2021-06-15?>
-            <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering van omgevingswaarden aanduiden.</omschrijving>
+            <omschrijving>Begrippen die een classificering van omgevingswaarden aanduiden.</omschrijving>
             <toelichting/>
          </domein>
       </domeinen>
@@ -6681,21 +6558,48 @@
       <label>thema</label>
       <term>Thema</term>
       <uri>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema</uri>
-      <?vervang 2021-06-15?>
-      <type>limitatief</type>
+      <type>uitbreidbaar</type>
       <omschrijving>Waardelijst voor attribuut thema bij Juridische regel en Tekstdeel.</omschrijving>
       <toelichting/>
       <waarden>
+         <waarde>
+            <label>bereikbaarheid</label>
+            <term>Bereikbaarheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bereikbaarheid/id/concept/Bereikbaarheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bereikbaarheid</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>biodiversiteit</label>
+            <term>Biodiversiteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/biodiversiteit/id/concept/Biodiversiteit</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Biodiversiteit</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
          <waarde>
             <label>bodem</label>
             <term>Bodem</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bodem als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6708,11 +6612,9 @@
             <term>Bouwwerken</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gaan over bouwwerken.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6721,19 +6623,62 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>cultureel erfgoed</label>
-            <term>CultureelErfgoed</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/CultureelErfgoed</uri>
-            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bescherming van cultureel erfgoed.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <label>circulaire economie</label>
+            <term>CirculaireEconomie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/circulaireeconomie/id/concept/CirculaireEconomie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CirculaireEconomie</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-02-09</startdatum>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>cultureel erfgoed en landschap</label>
+            <term>CultureelErfgoedEnLandschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>duurzaamheid</label>
+            <term>Duurzaamheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/duurzaamheid/id/concept/Duurzaamheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Duurzaamheid</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>economisch vestigingsklimaat</label>
+            <term>EconomischVestigingsklimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/economischvestigingsklimaat/id/concept/EconomischVestigingsklimaat</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/EconomischVestigingsklimaat</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6742,11 +6687,9 @@
             <term>EnergieEnNatuurlijkeHulpbronnen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/energieennatuurlijkehulpbronnen/id/concept/EnergieEnNatuurlijkeHulpbronnen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de benutting en bescherming van de energievoorziening en de natuurlijke hulpbronnen.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/EnergieEnNatuurlijkeHulpbronnen</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6755,19 +6698,17 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>externe veiligheid</label>
-            <term>ExterneVeiligheid</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</uri>
-            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van  de externe veiligheid.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
-            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <label>energietransitie</label>
+            <term>Energietransitie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/energietransitie/id/concept/Energietransitie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Energietransitie</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-02-09</startdatum>
+               <startdatum>2020-11-17</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6776,11 +6717,69 @@
             <term>Geluid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het tegengaan van geluidhinder.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geur</label>
+            <term>Geur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geur/id/concept/Geur</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geur</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geur van agrarische activiteiten</label>
+            <term>GeurVanAgrarischeActiviteiten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geurvanagrarischeactiviteiten/id/concept/GeurVanAgrarischeActiviteiten</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanAgrarischeActiviteiten</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geur van industriële activiteiten</label>
+            <term>GeurVanIndustrieleActiviteiten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geurvanindustrieleactiviteiten/id/concept/GeurVanIndustrieleActiviteiten</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanIndustrieleActiviteiten</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geur van rwzi's</label>
+            <term>GeurVanRwziS</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geurvanrwzis/id/concept/GeurVanRwziS</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanRwziS</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6792,13 +6791,10 @@
             <label>gezondheid</label>
             <term>Gezondheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/gezondheid/id/concept/Gezondheid</uri>
-            <?vervang 2021-06-15?>
-            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsaspecten van de leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsapecten van de leefomgeving.</definitie>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Gezondheid</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6811,11 +6807,69 @@
             <term>Infrastructuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de infrastructuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>klimaat</label>
+            <term>Klimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/klimaat/id/concept/Klimaat</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Klimaat</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>klimaatadaptatie</label>
+            <term>Klimaatadaptatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/klimaatadaptatie/id/concept/Klimaatadaptatie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Klimaatadaptatie</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>landbouw</label>
+            <term>Landbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/Landbouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landbouw</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>landelijke functies</label>
+            <term>LandelijkeFuncties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landelijkefuncties/id/concept/LandelijkeFuncties</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/LandelijkeFuncties</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6828,11 +6882,9 @@
             <term>Landgebruik</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landgebruik/id/concept/Landgebruik</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het aspect landgebruik.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landgebruik</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6845,11 +6897,24 @@
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de bescherming en ontwikkeling van het landschap.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>logistiek</label>
+            <term>Logistiek</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/logistiek/id/concept/Logistiek</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Logistiek</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6862,11 +6927,24 @@
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/lucht/id/concept/Lucht</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op lucht als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>luchtkwaliteit</label>
+            <term>Luchtkwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/luchtkwaliteit/id/concept/Luchtkwaliteit</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Luchtkwaliteit</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6879,11 +6957,24 @@
             <term>MilieuAlgemeen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeen/id/concept/MilieuAlgemeen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op risico's voor het milieu in algemene zin.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeen</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>milieu algemeen en overige milieuaspecten</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspecten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6896,11 +6987,39 @@
             <term>Natuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op natuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurbescherming</label>
+            <term>Natuurbescherming</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurlijke hulpbronnen</label>
+            <term>NatuurlijkeHulpbronnen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6913,11 +7032,129 @@
             <term>Procedures</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op procedures.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>recreatie en toerisme</label>
+            <term>RecreatieEnToerisme</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>regionale samenwerking</label>
+            <term>RegionaleSamenwerking</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/regionalesamenwerking/id/concept/RegionaleSamenwerking</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RegionaleSamenwerking</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>regionale woonagenda</label>
+            <term>RegionaleWoonagenda</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/regionalewoonagenda/id/concept/RegionaleWoonagenda</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RegionaleWoonagenda</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>ruimtelijke kwaliteit</label>
+            <term>RuimtelijkeKwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/ruimtelijkekwaliteit/id/concept/RuimtelijkeKwaliteit</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RuimtelijkeKwaliteit</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>stedelijke functies</label>
+            <term>StedelijkeFuncties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>toegankelijkheid</label>
+            <term>Toegankelijkheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/toegankelijkheid/id/concept/Toegankelijkheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Toegankelijkheid</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>veiligheid</label>
+            <term>Veiligheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/veiligheid/id/concept/Veiligheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Veiligheid</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>water en watersysteem</label>
+            <term>WaterEnWatersysteem</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6930,11 +7167,9 @@
             <term>WaterEnWatersystemen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersystemen/id/concept/WaterEnWatersystemen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op water en watersystemen als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
-            <toelichting/>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersystemen</domein>
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
@@ -6942,16 +7177,1998 @@
                <einddatum/>
             </geldigheid>
          </waarde>
+         <waarde>
+            <label>woon- en leefklimaat</label>
+            <term>WoonEnLeefklimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/woonenleefklimaat/id/concept/WoonEnLeefklimaat</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WoonEnLeefklimaat</domein>
+            <specialisatie/>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>aardkundige waarden</label>
+            <term>BodemAardkundigeWaarden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemAardkundigeWaarden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bodemdaling</label>
+            <term>BodemBodemdaling</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemBodemdaling</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bodemkwaliteit</label>
+            <term>BodemBodemkwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemBodemkwaliteit</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>gesloten of voormalige stortplaats</label>
+            <term>BodemGeslotenOfVoormaligeStortplaats</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemGeslotenOfVoormaligeStortplaats</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>ontgrondingen</label>
+            <term>BodemOntgrondingen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemOntgrondingen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>open stortplaats</label>
+            <term>BodemOpenStortplaats</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/BodemOpenStortplaats</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>asbestverwijdering</label>
+            <term>BouwwerkenAsbestverwijdering</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenAsbestverwijdering</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bestaande bouw</label>
+            <term>BouwwerkenBestaandeBouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenBestaandeBouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bouwwerkinstallaties</label>
+            <term>BouwwerkenBouwwerkinstallaties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenBouwwerkinstallaties</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bouwwerkzaamheden</label>
+            <term>BouwwerkenBouwwerkzaamheden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenBouwwerkzaamheden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>brandveilig gebruik bouwwerken</label>
+            <term>BouwwerkenBrandveiligGebruikBouwwerken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenBrandveiligGebruikBouwwerken</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bruikbaarheid</label>
+            <term>BouwwerkenBruikbaarheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenBruikbaarheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>energielabel</label>
+            <term>BouwwerkenEnergielabel</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenEnergielabel</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>gebruik van bouwwerken</label>
+            <term>BouwwerkenGebruikVanBouwwerken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenGebruikVanBouwwerken</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>gebruiksfunctiewijziging</label>
+            <term>BouwwerkenGebruiksfunctiewijziging</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenGebruiksfunctiewijziging</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>gezondheid</label>
+            <term>BouwwerkenGezondheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenGezondheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>nieuwbouw</label>
+            <term>BouwwerkenNieuwbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenNieuwbouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>ruimtelijke aspecten</label>
+            <term>BouwwerkenRuimtelijkeAspecten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenRuimtelijkeAspecten</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>sloopwerkzaamheden</label>
+            <term>BouwwerkenSloopwerkzaamheden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenSloopwerkzaamheden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>tijdelijke bouwwerken</label>
+            <term>BouwwerkenTijdelijkeBouwwerken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenTijdelijkeBouwwerken</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>toegankelijkheid</label>
+            <term>BouwwerkenToegankelijkheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenToegankelijkheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>veiligheid</label>
+            <term>BouwwerkenVeiligheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenVeiligheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>verbouw</label>
+            <term>BouwwerkenVerbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenVerbouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>verplaatsen van bouwwerken</label>
+            <term>BouwwerkenVerplaatsenVanBouwwerken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/BouwwerkenVerplaatsenVanBouwwerken</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>archeologie</label>
+            <term>CultureelErfgoedEnLandschapArcheologie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschapArcheologie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>beschermd stads- en dorpsgezicht</label>
+            <term>CultureelErfgoedEnLandschapBeschermdStadsEnDorpsgezicht</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschapBeschermdStadsEnDorpsgezicht</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>cultureel erfgoed</label>
+            <term>CultureelErfgoedEnLandschapCultureelErfgoed</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschapCultureelErfgoed</uri>
+            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bescherming van cultureel erfgoed.</definitie>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum>2020-12-14</einddatum>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>cultuurlandschappen</label>
+            <term>CultureelErfgoedEnLandschapCultuurlandschappen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschapCultuurlandschappen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>werelderfgoed</label>
+            <term>CultureelErfgoedEnLandschapWerelderfgoed</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschapWerelderfgoed</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/cultureelerfgoedenlandschap/id/concept/CultureelErfgoedEnLandschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>duurzaamheid</label>
+            <term>BouwwerkenDuurzaamheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/duurzaamheid/id/concept/BouwwerkenDuurzaamheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Duurzaamheid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/duurzaamheid/id/concept/Duurzaamheid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geluid van activiteiten</label>
+            <term>GeluidGeluidVanActiviteiten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/GeluidGeluidVanActiviteiten</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geluid van industrieterreinen</label>
+            <term>GeluidGeluidVanIndustrieterreinen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/GeluidGeluidVanIndustrieterreinen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geluid van luchthavens en luchtvaart</label>
+            <term>GeluidGeluidVanLuchthavensEnLuchtvaart</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/GeluidGeluidVanLuchthavensEnLuchtvaart</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geluid van spoorwegen</label>
+            <term>GeluidGeluidVanSpoorwegen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/GeluidGeluidVanSpoorwegen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geluid van wegen</label>
+            <term>GeluidGeluidVanWegen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/GeluidGeluidVanWegen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>energieopwekking</label>
+            <term>InfrastructuurEnergieopwekking</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurEnergieopwekking</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>fietsinfrastructuur en wandelpaden</label>
+            <term>InfrastructuurFietsinfrastructuurEnWandelpaden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurFietsinfrastructuurEnWandelpaden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>hoogspanningsnet</label>
+            <term>InfrastructuurHoogspanningsnet</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurHoogspanningsnet</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>kabels en leidingen</label>
+            <term>InfrastructuurKabelsEnLeidingen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurKabelsEnLeidingen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>leidingen</label>
+            <term>InfrastructuurLeidingen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurLeidingen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>luchthavens</label>
+            <term>InfrastructuurLuchthavens</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurLuchthavens</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>militaire infrastructuur</label>
+            <term>InfrastructuurMilitaireInfrastructuur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurMilitaireInfrastructuur</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>spoorwegen</label>
+            <term>InfrastructuurSpoorwegen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurSpoorwegen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>vaarwegen</label>
+            <term>InfrastructuurVaarwegen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurVaarwegen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>wegen</label>
+            <term>InfrastructuurWegen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/InfrastructuurWegen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>klimaatmitigatie</label>
+            <term>KlimaatKlimaatmitigatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/klimaat/id/concept/KlimaatKlimaatmitigatie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Klimaat</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/klimaat/id/concept/Klimaat</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>glastuinbouw</label>
+            <term>LandbouwGlastuinbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/LandbouwGlastuinbouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landbouw</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/Landbouw</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>veehouderij</label>
+            <term>LandbouwVeehouderij</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/LandbouwVeehouderij</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landbouw</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/Landbouw</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>vollegrondteelt</label>
+            <term>LandbouwVollegrondteelt</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/LandbouwVollegrondteelt</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landbouw</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landbouw/id/concept/Landbouw</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurbegraven</label>
+            <term>LandelijkeFunctiesNatuurbegraven</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landelijkefuncties/id/concept/LandelijkeFunctiesNatuurbegraven</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/LandelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landelijkefuncties/id/concept/LandelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>vrijkomende (agrarische) bebouwing</label>
+            <term>LandelijkeFunctiesVrijkomendeAgrarischeBebouwing</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landelijkefuncties/id/concept/LandelijkeFunctiesVrijkomendeAgrarischeBebouwing</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/LandelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landelijkefuncties/id/concept/LandelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bijzonder reliëf landschap</label>
+            <term>LandschapBijzonderReliefLandschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/LandschapBijzonderReliefLandschap</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>kleinschalig besloten landschap</label>
+            <term>LandschapKleinschaligBeslotenLandschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/LandschapKleinschaligBeslotenLandschap</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>landschappelijke waarden</label>
+            <term>LandschapLandschappelijkeWaarden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/LandschapLandschappelijkeWaarden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>waardevol open landschap</label>
+            <term>LandschapWaardevolOpenLandschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/LandschapWaardevolOpenLandschap</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>afval</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspectenAfval</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspectenAfval</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>algemeen</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspectenAlgemeen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspectenAlgemeen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>energie</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspectenEnergie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspectenEnergie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>lichthinder</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspectenLichthinder</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspectenLichthinder</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>trillingen</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspectenTrillingen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspectenTrillingen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/milieualgemeenenoverigemilieuaspecten/id/concept/MilieuAlgemeenEnOverigeMilieuaspecten</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>ecologie</label>
+            <term>NatuurbeschermingEcologie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/NatuurbeschermingEcologie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurbeheer</label>
+            <term>NatuurbeschermingNatuurbeheer</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/NatuurbeschermingNatuurbeheer</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurgebieden</label>
+            <term>NatuurbeschermingNatuurgebieden</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/NatuurbeschermingNatuurgebieden</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>natuurnetwerk</label>
+            <term>NatuurbeschermingNatuurnetwerk</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/NatuurbeschermingNatuurnetwerk</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>overige natuur</label>
+            <term>NatuurbeschermingOverigeNatuur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/NatuurbeschermingOverigeNatuur</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurbescherming/id/concept/Natuurbescherming</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>biomassa</label>
+            <term>NatuurlijkeHulpbronnenBiomassa</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenBiomassa</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bodemenergiesystemen</label>
+            <term>NatuurlijkeHulpbronnenBodemenergiesystemen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenBodemenergiesystemen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>geothermie</label>
+            <term>NatuurlijkeHulpbronnenGeothermie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenGeothermie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>mijnbouw</label>
+            <term>NatuurlijkeHulpbronnenMijnbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenMijnbouw</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>waterkracht</label>
+            <term>NatuurlijkeHulpbronnenWaterkracht</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenWaterkracht</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>wind</label>
+            <term>NatuurlijkeHulpbronnenWind</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenWind</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>zon</label>
+            <term>NatuurlijkeHulpbronnenZon</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnenZon</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/natuurlijkehulpbronnen/id/concept/NatuurlijkeHulpbronnen</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>financiele zekerheid</label>
+            <term>ProceduresFinancieleZekerheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresFinancieleZekerheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>handhaving en uitvoering</label>
+            <term>ProceduresHandhavingEnUitvoering</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresHandhavingEnUitvoering</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>heffingen</label>
+            <term>ProceduresHeffingen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresHeffingen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>kostenverhaal</label>
+            <term>ProceduresKostenverhaal</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresKostenverhaal</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>milieueffectrapportage</label>
+            <term>ProceduresMilieueffectrapportage</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresMilieueffectrapportage</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>monitoring</label>
+            <term>ProceduresMonitoring</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresMonitoring</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>overgangsrecht</label>
+            <term>ProceduresOvergangsrecht</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresOvergangsrecht</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>procedure projectprocedure</label>
+            <term>ProceduresProcedureProjectprocedure</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresProcedureProjectprocedure</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>procedures aanwijzing locaties rijkstaken</label>
+            <term>ProceduresProceduresAanwijzingLocatiesRijkstaken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresProceduresAanwijzingLocatiesRijkstaken</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>procedures bevoegd gezag en betrokkenheid omgevingsvergunning</label>
+            <term>ProceduresProceduresBevoegdGezagEnBetrokkenheidOmgevingsvergunning</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresProceduresBevoegdGezagEnBetrokkenheidOmgevingsvergunning</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>procedures digitaal stelsel omgevingswet</label>
+            <term>ProceduresProceduresDigitaalStelselOmgevingswet</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresProceduresDigitaalStelselOmgevingswet</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>schade</label>
+            <term>ProceduresSchade</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresSchade</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>voorkeursrecht en onteigening</label>
+            <term>ProceduresVoorkeursrechtEnOnteigening</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/ProceduresVoorkeursrechtEnOnteigening</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>dagrecreatie</label>
+            <term>RecreatieEnToerismeDagrecreatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeDagrecreatie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>fiets en wandelroutes</label>
+            <term>RecreatieEnToerismeFietsEnWandelroutes</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeFietsEnWandelroutes</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>jachthaven</label>
+            <term>RecreatieEnToerismeJachthaven</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeJachthaven</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>kleinschalige recreatie</label>
+            <term>RecreatieEnToerismeKleinschaligeRecreatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeKleinschaligeRecreatie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>leisure</label>
+            <term>RecreatieEnToerismeLeisure</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeLeisure</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>recreatiewoning</label>
+            <term>RecreatieEnToerismeRecreatiewoning</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeRecreatiewoning</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>toerisme</label>
+            <term>RecreatieEnToerismeToerisme</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeToerisme</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>verblijfsrecreatie</label>
+            <term>RecreatieEnToerismeVerblijfsrecreatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerismeVerblijfsrecreatie</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/recreatieentoerisme/id/concept/RecreatieEnToerisme</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>bedrijventerreinen</label>
+            <term>StedelijkeFunctiesBedrijventerreinen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFunctiesBedrijventerreinen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>detailhandel</label>
+            <term>StedelijkeFunctiesDetailhandel</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFunctiesDetailhandel</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>ruimte voor toekomstige functies</label>
+            <term>StedelijkeFunctiesRuimteVoorToekomstigeFuncties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFunctiesRuimteVoorToekomstigeFuncties</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>voorzieningen</label>
+            <term>StedelijkeFunctiesVoorzieningen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFunctiesVoorzieningen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>wonen</label>
+            <term>StedelijkeFunctiesWonen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFunctiesWonen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/stedelijkefuncties/id/concept/StedelijkeFuncties</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>gebouwen</label>
+            <term>ToegankelijkheidGebouwen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/toegankelijkheid/id/concept/ToegankelijkheidGebouwen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Toegankelijkheid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/toegankelijkheid/id/concept/Toegankelijkheid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>openbare buitenruimte</label>
+            <term>ToegankelijkheidOpenbareBuitenruimte</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/toegankelijkheid/id/concept/ToegankelijkheidOpenbareBuitenruimte</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Toegankelijkheid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/toegankelijkheid/id/concept/Toegankelijkheid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>externe veiligheid</label>
+            <term>VeiligheidExterneVeiligheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/veiligheid/id/concept/VeiligheidExterneVeiligheid</uri>
+            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de externe veiligheid.</definitie>
+            <toelichting>Deze waarde kan gebruikt worden.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Veiligheid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/veiligheid/id/concept/Veiligheid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum>2020-12-14</einddatum>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>risico's van branden, rampen en crises</label>
+            <term>VeiligheidRisicoSVanBrandenRampenEnCrises</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/veiligheid/id/concept/VeiligheidRisicoSVanBrandenRampenEnCrises</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Veiligheid</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/veiligheid/id/concept/Veiligheid</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>drinkwater</label>
+            <term>WaterEnWatersysteemDrinkwater</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemDrinkwater</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>grondwater (bescherming)</label>
+            <term>WaterEnWatersysteemGrondwaterBescherming</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemGrondwaterBescherming</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>marien</label>
+            <term>WaterEnWatersysteemMarien</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemMarien</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>oppervlaktewater (bescherming)</label>
+            <term>WaterEnWatersysteemOppervlaktewaterBescherming</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemOppervlaktewaterBescherming</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>wateroverlast</label>
+            <term>WaterEnWatersysteemWateroverlast</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemWateroverlast</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>waterschaarste</label>
+            <term>WaterEnWatersysteemWaterschaarste</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemWaterschaarste</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>watersystemen</label>
+            <term>WaterEnWatersysteemWatersystemen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemWatersystemen</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>waterveiligheid</label>
+            <term>WaterEnWatersysteemWaterveiligheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemWaterveiligheid</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
+         <waarde>
+            <label>zwemwaterkwaliteit</label>
+            <term>WaterEnWatersysteemZwemwaterkwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteemZwemwaterkwaliteit</uri>
+            <definitie/>
+            <toelichting>Deze waarde niet gebruiken.</toelichting>
+            <bron/>
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</domein>
+            <specialisatie>http://standaarden.omgevingswet.overheid.nl/waterenwatersysteem/id/concept/WaterEnWatersysteem</specialisatie>
+            <symboolcode id=""/>
+            <geldigheid>
+               <startdatum>2020-11-17</startdatum>
+               <einddatum/>
+            </geldigheid>
+         </waarde>
       </waarden>
-      <domeinen><?voegtoe 2021-06-15?>
+      <domeinen>
          <domein>
-            <label>thema</label>
-            <term>Thema</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</uri>
-            <omschrijving>De aanduiding van het aspect van de fysieke leefomgeving waar de regel of de beleidstekst over gaat.</omschrijving>
+            <label>bereikbaarheid</label>
+            <term>Bereikbaarheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bereikbaarheid</uri>
+            <omschrijving>Begrippen gerelateerd aan het domein van bereikbaarheid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>biodiversiteit</label>
+            <term>Biodiversiteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Biodiversiteit</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van  biodiversiteit.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>bodem</label>
+            <term>Bodem</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van bodem.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>bouwwerken</label>
+            <term>Bouwwerken</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van bouwwerken.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>circulaire economie</label>
+            <term>CirculaireEconomie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CirculaireEconomie</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van circulaire economie.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>cultureel erfgoed en landschap</label>
+            <term>CultureelErfgoedEnLandschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoedEnLandschap</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van cultureel erfgoed en landschap.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>duurzaamheid</label>
+            <term>Duurzaamheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Duurzaamheid</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van duurzaamheid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>economisch vestigingsklimaat</label>
+            <term>EconomischVestigingsklimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/EconomischVestigingsklimaat</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van economisch vestigingsklimaat.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>energie en natuurlijke hulpbronnen</label>
+            <term>EnergieEnNatuurlijkeHulpbronnen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/EnergieEnNatuurlijkeHulpbronnen</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van energie en natuurlijke hulpbronnen.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>energietransitie</label>
+            <term>Energietransitie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Energietransitie</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van energietransitie.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>geluid</label>
+            <term>Geluid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van geluid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>geur</label>
+            <term>Geur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geur</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van geur.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>geur van agrarische activiteiten</label>
+            <term>GeurVanAgrarischeActiviteiten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanAgrarischeActiviteiten</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van geur van agrarische activiteiten.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>geur van industriële activiteiten</label>
+            <term>GeurVanIndustrieleActiviteiten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanIndustrieleActiviteiten</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van geur van industriële activiteiten.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>geur van rwzi's</label>
+            <term>GeurVanRwziS</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/GeurVanRwziS</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van geur van rwzi's.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>gezondheid</label>
+            <term>Gezondheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Gezondheid</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van gezondheid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>infrastructuur</label>
+            <term>Infrastructuur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van infrastructuur.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>klimaat</label>
+            <term>Klimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Klimaat</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van klimaat.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>klimaatadaptatie</label>
+            <term>Klimaatadaptatie</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Klimaatadaptatie</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van klimaatadaptatie.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>landbouw</label>
+            <term>Landbouw</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landbouw</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landbouw.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>landelijke functies</label>
+            <term>LandelijkeFuncties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/LandelijkeFuncties</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landelijke functies.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>landgebruik</label>
+            <term>Landgebruik</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landgebruik</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landgebruik.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>landschap</label>
+            <term>Landschap</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>logistiek</label>
+            <term>Logistiek</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Logistiek</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van logistiek.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>lucht</label>
+            <term>Lucht</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>luchtkwaliteit</label>
+            <term>Luchtkwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Luchtkwaliteit</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht en luchtkwaliteit.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>milieu algemeen</label>
+            <term>MilieuAlgemeen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeen</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van milieu algemeen.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>milieu algemeen en overige milieuaspecten</label>
+            <term>MilieuAlgemeenEnOverigeMilieuaspecten</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeenEnOverigeMilieuaspecten</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van milieu algemeen en overige milieuaspecten.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>natuur</label>
+            <term>Natuur</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van natuur.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>natuurbescherming</label>
+            <term>Natuurbescherming</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuurbescherming</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van natuurbescherming.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>natuurlijke hulpbronnen</label>
+            <term>NatuurlijkeHulpbronnen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/NatuurlijkeHulpbronnen</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van natuurlijke hulpbronnen.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>procedures</label>
+            <term>Procedures</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van procedures.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>recreatie en toerisme</label>
+            <term>RecreatieEnToerisme</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RecreatieEnToerisme</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van recreatie en toerisme.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>regionale samenwerking</label>
+            <term>RegionaleSamenwerking</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RegionaleSamenwerking</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van regionale samenwerking.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>regionale woonagenda</label>
+            <term>RegionaleWoonagenda</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RegionaleWoonagenda</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van regionale woonagenda.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>ruimtelijke kwaliteit</label>
+            <term>RuimtelijkeKwaliteit</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/RuimtelijkeKwaliteit</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van ruimtelijke kwaliteit.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>stedelijke functies</label>
+            <term>StedelijkeFuncties</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/StedelijkeFuncties</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van stedelijke functies.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>toegankelijkheid</label>
+            <term>Toegankelijkheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Toegankelijkheid</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van toegankelijkheid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>veiligheid</label>
+            <term>Veiligheid</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Veiligheid</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van veiligheid.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>water en watersysteem</label>
+            <term>WaterEnWatersysteem</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersysteem</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van water en watersystemen.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>water en watersystemen</label>
+            <term>WaterEnWatersystemen</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersystemen</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van water en watersystemen.</omschrijving>
+            <toelichting/>
+         </domein>
+         <domein>
+            <label>woon- en leefklimaat</label>
+            <term>WoonEnLeefklimaat</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WoonEnLeefklimaat</uri>
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van woon- en leefklimaat.</omschrijving>
+            <toelichting/>
          </domein>
       </domeinen>
       <bronnen>
+         <bron>
+            <titel>Staatsblad 2018, 290</titel>
+            <term>Staatsblad2018290</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290</uri>
+            <omschrijving>Besluit van 3 juli 2018, houdende procedurele regels en regels over algemene onderwerpen over het beschermen en benutten van de fysieke leefomgeving (Omgevingsbesluit)</omschrijving>
+            <href>https://zoek.officielebekendmakingen.nl/stb-2018-290.html</href>
+         </bron>
+         <bron>
+            <titel>Staatsblad 2018, 291</titel>
+            <term>Staatsblad2018291</term>
+            <uri>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291</uri>
+            <omschrijving>Besluit van 3 juli 2018, houdende regels over bouwwerken in de fysieke leefomgeving (Besluit bouwwerken leefomgeving)</omschrijving>
+            <href>https://zoek.officielebekendmakingen.nl/stb-2018-291.html</href>
+         </bron>
          <bron>
             <titel>Staatsblad 2018, 292</titel>
             <term>Staatsblad2018292</term>
@@ -8588,21 +10805,6 @@
             </geldigheid>
          </waarde>
          <waarde>
-            <label>nog toe te voegen</label>
-            <term>NogToeTeVoegen</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</uri>
-            <definitie>Waarde voor attribuut type bij de objecten Omgevingsnorm en Omgevingswaarde die gebruikt kan worden wanneer een bevoegd gezag een eigen waarde wil gebruiken.</definitie>
-            <toelichting>Deze waarde is toegevoegd om, zolang de DSO-systemen nog niet met uitbreidbare waardelijsten kunnen omgaan, duidelijk te kunnen maken dat het de bedoeling is een eigen waarde te gebruiken. (NB: Het bevoegd gezag kan een mail sturen aan omgevingswet@geonovum.nl met het verzoek om de betreffende waarde aan de waardelijst toe te voegen).</toelichting>
-            <bron/>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/TypeNorm</domein>
-            <specialisatie/>
-            <symboolcode id=""/>
-            <geldigheid>
-               <startdatum>2021-02-09</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
             <label>nokrichting</label>
             <term>Nokrichting</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/Nokrichting</uri>
@@ -8764,21 +10966,6 @@
             <symboolcode id=""/>
             <geldigheid>
                <startdatum>2020-11-17</startdatum>
-               <einddatum/>
-            </geldigheid>
-         </waarde>
-         <waarde>
-            <label>welstandsniveau</label>
-            <term>Welstandsniveau</term>
-            <uri>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/Welstandsniveau</uri>
-            <definitie>Waarde voor attribuut type bij object Omgevingsnorm.</definitie>
-            <toelichting/>
-            <bron/>
-            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/TypeNorm</domein>
-            <specialisatie/>
-            <symboolcode id=""/>
-            <geldigheid>
-               <startdatum>2021-04-20</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>

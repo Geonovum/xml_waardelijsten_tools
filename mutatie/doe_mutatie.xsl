@@ -3,126 +3,277 @@
    <xsl:output method="text" encoding="utf-8"/>
    <xsl:strip-space elements="*"/>
    <xsl:import href="import.xsl"/>
-   <xsl:template match="versie">
+   <xsl:template match="waardelijsten/versie">
       <xsl:param name="mode"/>
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <versie>1.0.8</versie>
+            <versie>2.0.0-rc</versie>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
-   <xsl:template match="publicatiedatum">
+   <xsl:template match="waardelijsten/publicatiedatum">
       <xsl:param name="mode"/>
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <publicatiedatum>2021-02-09</publicatiedatum>
+            <publicatiedatum>2021-06-15</publicatiedatum>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
-   <xsl:template match="//waardelijst[label='activiteitengroep']/waarden">
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Habitatrichtlijngebied']/symboolcode">
       <xsl:param name="mode"/>
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <waarde>
-               <label>landinrichtingsactiviteit</label>
-               <definitie>Waarde voor attribuut groep bij het object Activiteit voor het vastleggen van een gebied waar regels gelden over de landinrichtingsactiviteit: activiteit die gevolgen heeft of kan hebben voor de uitvoering van een inrichtingsprogramma als bedoeld in artikel 3.14a Ow.</definitie>
-               <bron>http://standaarden.omgevingswet.overheid.nl/id/bron/Staatsblad2016156</bron>
-               <symboolcode id="vag410">vag410</symboolcode>
-            </waarde>
-            <waarde>
-               <label>toegangsactiviteit</label>
-               <definitie>Waarde voor attribuut groep bij het object Activiteit voor het vastleggen van een gebied waar regels gelden over activiteiten waarvoor op grond van een toegangsbeperkingsbesluit in een Natura 2000-gebied een gehele of gedeeltelijke beperking of verbod geldt dan wel die van een beperking of verbod zijn uitgezonderd.</definitie>
-               <symboolcode id="vag402">vag402</symboolcode>
-            </waarde>
+            <symboolcode id="vsgt114">vsgt114</symboolcode>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
-         <xsl:with-param name="type">voegtoe</xsl:with-param>
-      </xsl:call-template>
-   </xsl:template>
-   <xsl:template match="//waardelijst[label='eenheid']/waarden">
-      <xsl:param name="mode"/>
-      <xsl:call-template name="doe_mutatie">
-         <xsl:with-param name="mode" select="$mode"/>
-         <xsl:with-param name="mutatie">
-            <waarde>
-               <label>nog toe te voegen</label>
-               <definitie>Waarde voor attribuut eenheid voor de gegevensgroep Normwaarde bij de objecten Omgevingswaarde en Omgevingsnorm die gebruikt kan worden wanneer een bevoegd gezag een eigen waarde wil gebruiken.</definitie>
-               <toelichting>Deze waarde is toegevoegd om, zolang de DSO-systemen nog niet met uitbreidbare waardelijsten kunnen omgaan, duidelijk te kunnen maken dat het de bedoeling is een eigen waarde te gebruiken. (NB: Het bevoegd gezag kan een mail sturen aan omgevingswet@geonovum.nl met het verzoek om de betreffende waarde aan de waardelijst toe te voegen).</toelichting>
-            </waarde>
-         </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
-         <xsl:with-param name="type">voegtoe</xsl:with-param>
-      </xsl:call-template>
-   </xsl:template>
-   <xsl:template match="//waardelijst[label='type norm']/waarden">
-      <xsl:param name="mode"/>
-      <xsl:call-template name="doe_mutatie">
-         <xsl:with-param name="mode" select="$mode"/>
-         <xsl:with-param name="mutatie">
-            <waarde>
-               <label>nog toe te voegen</label>
-               <definitie>Waarde voor attribuut type bij de objecten Omgevingsnorm en Omgevingswaarde die gebruikt kan worden wanneer een bevoegd gezag een eigen waarde wil gebruiken.</definitie>
-               <toelichting>Deze waarde is toegevoegd om, zolang de DSO-systemen nog niet met uitbreidbare waardelijsten kunnen omgaan, duidelijk te kunnen maken dat het de bedoeling is een eigen waarde te gebruiken. (NB: Het bevoegd gezag kan een mail sturen aan omgevingswet@geonovum.nl met het verzoek om de betreffende waarde aan de waardelijst toe te voegen).</toelichting>
-            </waarde>
-         </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
-         <xsl:with-param name="type">voegtoe</xsl:with-param>
-      </xsl:call-template>
-   </xsl:template>
-   <xsl:template match="//waardelijst[label='natuurgroep']/waarden">
-      <xsl:param name="mode"/>
-      <xsl:call-template name="doe_mutatie">
-         <xsl:with-param name="mode" select="$mode"/>
-         <xsl:with-param name="mutatie">
-            <waarde>
-               <label>habitatrichtlijngebied</label>
-               <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het aanwijzen van een gebied als Natura 2000-gebied ter uitvoering van de habitatrichtlijn.</definitie>
-               <bron>http://standaarden.omgevingswet.overheid.nl/id/bron/Staatsblad2016156</bron>
-               <symboolcode id="vgst114">vgst114</symboolcode>
-            </waarde>
-            <waarde>
-               <label>vogelrichtlijngebied</label>
-               <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het aanwijzen van een gebied als Natura 2000-gebied ter uitvoering van de vogelrichtlijn.</definitie>
-               <bron>http://standaarden.omgevingswet.overheid.nl/id/bron/Staatsblad2016156</bron>
-               <symboolcode id="vgst123">vgst123</symboolcode>
-            </waarde>
-            <waarde>
-               <label>toegangsbeperkingsgebied</label>
-               <definitie>Waarde voor attribuut groep bij het Gebiedsaanwijzingtype Natuur voor het bij toegangsbeperkingsbesluit aanwijzen van een gebied waar regels gelden over de beperking of het verbod van de toegang tot een Natura 2000-gebied.</definitie>
-               <bron>http://standaarden.omgevingswet.overheid.nl/id/bron/Staatsblad2016156</bron>
-               <symboolcode id="vgst002">vgst002</symboolcode>
-            </waarde>
-         </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
-         <xsl:with-param name="type">voegtoe</xsl:with-param>
-      </xsl:call-template>
-   </xsl:template>
-   <xsl:template match="//waardelijst[term='Thema']/waarden/waarde[term='CultureelErfgoed']/definitie">
-      <xsl:param name="mode"/>
-      <xsl:call-template name="doe_mutatie">
-         <xsl:with-param name="mode" select="$mode"/>
-         <xsl:with-param name="mutatie">
-            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bescherming van cultureel erfgoed.</definitie>
-         </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
-   <xsl:template match="//waardelijst[term='Thema']/waarden/waarde[term='ExterneVeiligheid']/definitie">
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Toegangsbeperkingsgebied']/symboolcode">
       <xsl:param name="mode"/>
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van  de externe veiligheid.</definitie>
+            <symboolcode id="vsgt002">vsgt002</symboolcode>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-02-09</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Vogelrichtlijngebied']/symboolcode">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <symboolcode id="vsgt123">vsgt123</symboolcode>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep']/waarden">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <waarde>
+               <label>maatvoering gebruik</label>
+               <definitie>Waarde voor attribuut groep bij het object Omgevingsnorm voor het vaststellen, geometrisch begrenzen en per locatie waarden vastleggen van een omgevingsnorm voor de maatvoering van (planologisch) gebruik.</definitie>
+               <symboolcode id="vog014">vog014</symboolcode>
+            </waarde>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">voegtoe</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/type">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <type>limitatief</type>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde niet gebruiken.']">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie"/>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">verwijder</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[geldigheid/startdatum='2021-06-10']">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie"/>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">verwijder</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde kan gebruikt worden.']/toelichting">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <toelichting/>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[toelichting='Deze waarde kan gebruikt worden.']/domein">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/gezondheid/id/concept/Gezondheid']/definitie">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsaspecten van de leefomgeving.</definitie>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/domeinen/domein">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie"/>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">verwijder</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']/domeinen">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <domein>
+               <label>thema</label>
+               <term>Thema</term>
+               <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</uri>
+               <omschrijving>De aanduiding van het aspect van de fysieke leefomgeving waar de regel of de beleidstekst over gaat.</omschrijving>
+            </domein>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">voegtoe</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']//bron[uri='http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018290']">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie"/>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">verwijder</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema']//bron[uri='http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018291']">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie"/>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">verwijder</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen die eenheden aanduiden waarin een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Functiegroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Functie']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen gerelateerd aan de toedeling van functies aan locaties.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Landschapgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Luchtgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingsnorm']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering voor aspecten van de fysieke leefomgeving aanduiden, die geen omgevingswaarde is.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingswaarde']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering van omgevingswaarden aanduiden.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteitregelkwalificatie']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen die een kwalificatie geven van regels over activiteiten.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Adressaat']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen die het type bestuurslaag of organisatie aanduiden.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="type">vervang</xsl:with-param>
+      </xsl:call-template>
+   </xsl:template>
+   <xsl:template match="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Beperkingengebiedgroep']//domein[uri='http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Beperkingengebied']/omschrijving">
+      <xsl:param name="mode"/>
+      <xsl:call-template name="doe_mutatie">
+         <xsl:with-param name="mode" select="$mode"/>
+         <xsl:with-param name="mutatie">
+            <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebieden.</omschrijving>
+         </xsl:with-param>
+         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>

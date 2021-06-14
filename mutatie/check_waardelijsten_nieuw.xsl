@@ -191,7 +191,7 @@
         <xsl:element name="{name()}">
           <xsl:variable name="titel" select="(./titel[1]/node(),'Onbekend')[1]"/>
           <xsl:variable name="term" select="my:check_string(lower-case($titel))"/>
-          <xsl:variable name="uri" select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','id','bron',$term),'/')"/>
+          <xsl:variable name="uri" select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','id','bibliographicresource',$term),'/')"/>
           <xsl:element name="titel">
             <xsl:apply-templates select="$titel"/>
           </xsl:element>

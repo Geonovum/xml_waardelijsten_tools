@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" version="2.0">
+<xsl:stylesheet xmlns:my="functions" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" version="2.0">
 
   <xsl:character-map name="json">
     <xsl:output-character character="\" string="\\"/>
@@ -69,18 +69,7 @@
           </xsl:element>
         </xsl:if>
         <xsl:element name="metadata">
-          <xsl:variable name="startdatum">
-            <!-- bepaal het eerste voorkomen -->
-            <xsl:variable name="lijst">
-              <xsl:for-each select=".//waarde/geldigheid/startdatum">
-                <xsl:sort select="xs:date(.)"/>
-                <xsl:element name="item">
-                  <xsl:copy-of select="."/>
-                </xsl:element>
-              </xsl:for-each>
-            </xsl:variable>
-            <xsl:value-of select="$lijst/item[1]"/>
-          </xsl:variable>
+          <xsl:variable name="startdatum" select="my:first-date(.//waarde/geldigheid/startdatum)"/>
           <xsl:element name="uri">
             <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'waardelijst',fn:string-join((./term,$waardelijsten/versie[$index]/@nummer),'_')),'/')"/>
           </xsl:element>
@@ -89,7 +78,7 @@
           </xsl:element>
           <xsl:if test="$waardelijsten/versie[$index - 1]/waardelijst[./term=$term]">
             <xsl:element name="revisieVan">
-              <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'waardelijst',fn:string-join((./term,$waardelijsten/versie[$index - 1]/@nummer),'_')),'/')"/>
+              <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace(my:first-date($waardelijsten/versie[$index - 1]/waardelijst[./term=$term]//waarde/geldigheid/startdatum),'-',''),'000000'),'waardelijst',fn:string-join((./term,$waardelijsten/versie[$index - 1]/@nummer),'_')),'/')"/>
             </xsl:element>
           </xsl:if>
         </xsl:element>
@@ -206,18 +195,7 @@
           <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','id','conceptscheme','Symboolcode'),'/')"/>
         </xsl:element>
         <xsl:element name="metadata">
-          <xsl:variable name="startdatum">
-            <!-- bepaal het eerste voorkomen -->
-            <xsl:variable name="lijst">
-              <xsl:for-each select="$waardelijsten//waarde[./symboolcode=$symboolcode]/geldigheid/startdatum">
-                <xsl:sort select="xs:date(.)"/>
-                <xsl:element name="item">
-                  <xsl:copy-of select="."/>
-                </xsl:element>
-              </xsl:for-each>
-            </xsl:variable>
-            <xsl:value-of select="$lijst/item[1]"/>
-          </xsl:variable>
+          <xsl:variable name="startdatum" select="my:first-date($waardelijsten//waarde[./symboolcode=$symboolcode]/geldigheid/startdatum)"/>
           <xsl:element name="uri">
             <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','symboolcode','doc',concat(replace($startdatum,'-',''),'000000'),'concept',$symboolcode),'/')"/>
           </xsl:element>
@@ -303,18 +281,7 @@
         <xsl:value-of select="string('Symboolcode')"/>
       </xsl:element>
       <xsl:element name="metadata">
-        <xsl:variable name="startdatum">
-          <!-- bepaal het eerste voorkomen -->
-          <xsl:variable name="lijst">
-            <xsl:for-each select="$waardelijsten//waarde/geldigheid/startdatum">
-              <xsl:sort select="xs:date(.)"/>
-              <xsl:element name="item">
-                <xsl:copy-of select="."/>
-              </xsl:element>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:value-of select="$lijst/item[1]"/>
-        </xsl:variable>
+        <xsl:variable name="startdatum" select="my:first-date($waardelijsten//waarde/geldigheid/startdatum)"/>
         <xsl:element name="uri">
           <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'conceptscheme','Symboolcode'),'/')"/>
         </xsl:element>
@@ -339,18 +306,7 @@
           <xsl:value-of select="$domein/omschrijving"/>
         </xsl:element>
         <xsl:element name="metadata">
-          <xsl:variable name="startdatum">
-            <!-- bepaal het eerste voorkomen -->
-            <xsl:variable name="lijst">
-              <xsl:for-each select="$waardelijsten//waarde[./domein=$id]/geldigheid/startdatum">
-                <xsl:sort select="xs:date(.)"/>
-                <xsl:element name="item">
-                  <xsl:copy-of select="."/>
-                </xsl:element>
-              </xsl:for-each>
-            </xsl:variable>
-            <xsl:value-of select="$lijst/item[1]"/>
-          </xsl:variable>
+          <xsl:variable name="startdatum" select="my:first-date($waardelijsten//waarde[./domein=$id]/geldigheid/startdatum)"/>
           <xsl:element name="uri">
             <xsl:value-of select="fn:string-join(('http:','','standaarden.omgevingswet.overheid.nl','doc',concat(replace($startdatum,'-',''),'000000'),'conceptscheme',$domein/term),'/')"/>
           </xsl:element>
@@ -361,5 +317,21 @@
       </xsl:element>
     </xsl:for-each>
   </xsl:template>
+
+  <!-- functies -->
+  
+  <xsl:function name="my:first-date">
+    <xsl:param name="data"/>
+    <!-- bepaal het eerste voorkomen -->
+    <xsl:variable name="lijst">
+      <xsl:for-each select="$data">
+        <xsl:sort select="xs:date(.)"/>
+        <xsl:element name="item">
+          <xsl:copy-of select="."/>
+        </xsl:element>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="$lijst/item[1]"/>
+  </xsl:function>
 
 </xsl:stylesheet>

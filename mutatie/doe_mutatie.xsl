@@ -8,9 +8,9 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <versie>2.0.0-rc</versie>
+            <versie>2.0.0</versie>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -19,9 +19,9 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie">
-            <publicatiedatum>2021-06-15</publicatiedatum>
+            <publicatiedatum>2021-06-29</publicatiedatum>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -32,7 +32,7 @@
          <xsl:with-param name="mutatie">
             <symboolcode id="vsgt114">vsgt114</symboolcode>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -43,7 +43,7 @@
          <xsl:with-param name="mutatie">
             <symboolcode id="vsgt002">vsgt002</symboolcode>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -54,7 +54,7 @@
          <xsl:with-param name="mutatie">
             <symboolcode id="vsgt123">vsgt123</symboolcode>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -69,7 +69,7 @@
                <symboolcode id="vog014">vog014</symboolcode>
             </waarde>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">voegtoe</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -80,7 +80,7 @@
          <xsl:with-param name="mutatie">
             <type>limitatief</type>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -89,7 +89,7 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie"/>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">verwijder</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -98,7 +98,7 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie"/>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">verwijder</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -109,7 +109,7 @@
          <xsl:with-param name="mutatie">
             <toelichting/>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -120,7 +120,7 @@
          <xsl:with-param name="mutatie">
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -131,7 +131,7 @@
          <xsl:with-param name="mutatie">
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsaspecten van de leefomgeving.</definitie>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -140,7 +140,7 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie"/>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">verwijder</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -156,7 +156,7 @@
                <omschrijving>De aanduiding van het aspect van de fysieke leefomgeving waar de regel of de beleidstekst over gaat.</omschrijving>
             </domein>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">voegtoe</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -165,7 +165,7 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie"/>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">verwijder</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -174,7 +174,7 @@
       <xsl:call-template name="doe_mutatie">
          <xsl:with-param name="mode" select="$mode"/>
          <xsl:with-param name="mutatie"/>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">verwijder</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -185,7 +185,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen die eenheden aanduiden waarin een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -196,7 +196,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen gerelateerd aan de toedeling van functies aan locaties.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -207,7 +207,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -218,7 +218,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -229,7 +229,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering voor aspecten van de fysieke leefomgeving aanduiden, die geen omgevingswaarde is.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -240,7 +240,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering van omgevingswaarden aanduiden.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -251,7 +251,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen die een kwalificatie geven van regels over activiteiten.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -262,7 +262,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen die het type bestuurslaag of organisatie aanduiden.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>
@@ -273,7 +273,7 @@
          <xsl:with-param name="mutatie">
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebieden.</omschrijving>
          </xsl:with-param>
-         <xsl:with-param name="datum">2021-06-15</xsl:with-param>
+         <xsl:with-param name="datum">2021-06-29</xsl:with-param>
          <xsl:with-param name="type">vervang</xsl:with-param>
       </xsl:call-template>
    </xsl:template>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mutaties datum="2021-06-15">
+<mutaties datum="2021-06-29">
   <mutatie xpath="waardelijsten/versie" type="vervang">
-    <versie>2.0.0-rc</versie>
+    <versie>2.0.0</versie>
   </mutatie>
   <mutatie xpath="waardelijsten/publicatiedatum" type="vervang">
-    <publicatiedatum>2021-06-15</publicatiedatum>
+    <publicatiedatum>2021-06-29</publicatiedatum>
   </mutatie>
   <!-- symboolcodes -->
   <mutatie xpath="waardelijsten/waardelijst[uri='http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Natuurgroep']/waarden/waarde[uri='http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Habitatrichtlijngebied']/symboolcode" type="vervang">

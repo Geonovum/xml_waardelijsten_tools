@@ -21,7 +21,7 @@
             <xsl:element name="{name()}">
               <xsl:apply-templates select="startdatum"/>
               <xsl:element name="einddatum">
-                <xsl:value-of select="xs:date($einddatum) - xs:dayTimeDuration('P1D')"/>
+                <xsl:value-of select="$einddatum"/>
               </xsl:element>
             </xsl:element>
           </xsl:when>

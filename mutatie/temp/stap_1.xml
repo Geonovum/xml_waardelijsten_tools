@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<waardelijsten><?vervang 2021-06-15?>
-   <versie>2.0.0-rc</versie>
-   <?vervang 2021-06-15?>
-   <publicatiedatum>2021-06-15</publicatiedatum>
+<waardelijsten><?vervang 2021-06-29?>
+   <versie>2.0.0</versie>
+   <?vervang 2021-06-29?>
+   <publicatiedatum>2021-06-29</publicatiedatum>
    <waardelijst>
       <label>activiteitengroep</label>
       <term>Activiteitengroep</term>
@@ -1304,7 +1304,7 @@
             <label>activiteitregelkwalificatie</label>
             <term>Activiteitregelkwalificatie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteitregelkwalificatie</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die een kwalificatie geven van regels over activiteiten.</omschrijving>
             <toelichting/>
          </domein>
@@ -1475,7 +1475,7 @@
             <label>adressaat</label>
             <term>Adressaat</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Adressaat</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die het type bestuurslaag of organisatie aanduiden.</omschrijving>
             <toelichting/>
          </domein>
@@ -1623,7 +1623,7 @@
             <label>beperkingengebied</label>
             <term>Beperkingengebied</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Beperkingengebied</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebieden.</omschrijving>
             <toelichting/>
          </domein>
@@ -2405,7 +2405,7 @@
             <label>eenheid</label>
             <term>Eenheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die eenheden aanduiden waarin een kwantitatieve waarde wordt uitgedrukt.</omschrijving>
             <toelichting/>
          </domein>
@@ -4437,7 +4437,7 @@
             <label>functie</label>
             <term>Functie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Functie</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan de toedeling van functies aan locaties.</omschrijving>
             <toelichting/>
          </domein>
@@ -5162,7 +5162,7 @@
             <label>landschap</label>
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van landschap.</omschrijving>
             <toelichting/>
          </domein>
@@ -5339,7 +5339,7 @@
             <label>lucht</label>
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht.</omschrijving>
             <toelichting/>
          </domein>
@@ -5556,7 +5556,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vsgt114">vsgt114</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -5647,7 +5647,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vsgt002">vsgt002</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -5663,7 +5663,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vsgt123">vsgt123</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -5697,7 +5697,7 @@
       <type>limitatief</type>
       <omschrijving>Waardelijst voor attribuut groep bij Omgevingsnorm, dat zorgt voor filteren en weergave van de symbolisatie van Omgevingsnorm op de kaart.</omschrijving>
       <toelichting/>
-      <waarden><?voegtoe 2021-06-15?>
+      <waarden><?voegtoe 2021-06-29?>
          <waarde>
             <label>maatvoering gebruik</label>
             <definitie>Waarde voor attribuut groep bij het object Omgevingsnorm voor het vaststellen, geometrisch begrenzen en per locatie waarden vastleggen van een omgevingsnorm voor de maatvoering van (planologisch) gebruik.</definitie>
@@ -6009,7 +6009,7 @@
             <label>omgevingsnorm</label>
             <term>Omgevingsnorm</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingsnorm</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering voor aspecten van de fysieke leefomgeving aanduiden, die geen omgevingswaarde is.</omschrijving>
             <toelichting/>
          </domein>
@@ -6150,7 +6150,7 @@
             <label>omgevingswaarde</label>
             <term>Omgevingswaarde</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingswaarde</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering van omgevingswaarden aanduiden.</omschrijving>
             <toelichting/>
          </domein>
@@ -6681,7 +6681,7 @@
       <label>thema</label>
       <term>Thema</term>
       <uri>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema</uri>
-      <?vervang 2021-06-15?>
+      <?vervang 2021-06-29?>
       <type>limitatief</type>
       <omschrijving>Waardelijst voor attribuut thema bij Juridische regel en Tekstdeel.</omschrijving>
       <toelichting/>
@@ -6691,10 +6691,10 @@
             <term>Bodem</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bodem als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6708,10 +6708,10 @@
             <term>Bouwwerken</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gaan over bouwwerken.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6725,10 +6725,10 @@
             <term>CultureelErfgoed</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/CultureelErfgoed</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bescherming van cultureel erfgoed.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6742,10 +6742,10 @@
             <term>EnergieEnNatuurlijkeHulpbronnen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/energieennatuurlijkehulpbronnen/id/concept/EnergieEnNatuurlijkeHulpbronnen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de benutting en bescherming van de energievoorziening en de natuurlijke hulpbronnen.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6759,10 +6759,10 @@
             <term>ExterneVeiligheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van  de externe veiligheid.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6776,10 +6776,10 @@
             <term>Geluid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het tegengaan van geluidhinder.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6792,12 +6792,12 @@
             <label>gezondheid</label>
             <term>Gezondheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/gezondheid/id/concept/Gezondheid</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsaspecten van de leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6811,10 +6811,10 @@
             <term>Infrastructuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de infrastructuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6828,10 +6828,10 @@
             <term>Landgebruik</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landgebruik/id/concept/Landgebruik</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het aspect landgebruik.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6845,10 +6845,10 @@
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de bescherming en ontwikkeling van het landschap.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6862,10 +6862,10 @@
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/lucht/id/concept/Lucht</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op lucht als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6879,10 +6879,10 @@
             <term>MilieuAlgemeen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeen/id/concept/MilieuAlgemeen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op risico's voor het milieu in algemene zin.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6896,10 +6896,10 @@
             <term>Natuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op natuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6913,10 +6913,10 @@
             <term>Procedures</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op procedures.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6930,10 +6930,10 @@
             <term>WaterEnWatersystemen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersystemen/id/concept/WaterEnWatersystemen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op water en watersystemen als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting/>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Thema</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6943,7 +6943,7 @@
             </geldigheid>
          </waarde>
       </waarden>
-      <domeinen><?voegtoe 2021-06-15?>
+      <domeinen><?voegtoe 2021-06-29?>
          <domein>
             <label>thema</label>
             <term>Thema</term>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <waardelijsten>
-   <versie>2.0.0-rc</versie>
-   <publicatiedatum>2021-06-15</publicatiedatum>
+   <versie>2.0.0</versie>
+   <publicatiedatum>2021-06-29</publicatiedatum>
    <waardelijst>
       <label>activiteitengroep</label>
       <term>Activiteitengroep</term>
@@ -1188,7 +1188,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1203,7 +1203,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1218,7 +1218,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1233,7 +1233,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1248,7 +1248,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1263,7 +1263,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1278,7 +1278,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1293,7 +1293,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1343,7 +1343,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1358,7 +1358,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1373,7 +1373,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1388,7 +1388,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1403,7 +1403,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1418,7 +1418,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1433,7 +1433,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1448,7 +1448,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1463,7 +1463,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1520,7 +1520,7 @@
             <specialisatie/>
             <symboolcode id="vag222">vag222</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1535,7 +1535,7 @@
             <specialisatie/>
             <symboolcode id="vag228">vag228</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1550,7 +1550,7 @@
             <specialisatie/>
             <symboolcode id="vag206">vag206</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1565,7 +1565,7 @@
             <specialisatie/>
             <symboolcode id="vag221">vag221</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1580,7 +1580,7 @@
             <specialisatie/>
             <symboolcode id="vag215">vag215</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1595,7 +1595,7 @@
             <specialisatie/>
             <symboolcode id="vag220">vag220</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1610,7 +1610,7 @@
             <specialisatie/>
             <symboolcode id="vag214">vag214</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1911,7 +1911,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1926,7 +1926,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1941,7 +1941,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1956,7 +1956,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1971,7 +1971,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -1986,7 +1986,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2001,7 +2001,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2016,7 +2016,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2031,7 +2031,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2046,7 +2046,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2061,7 +2061,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2076,7 +2076,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2091,7 +2091,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2106,7 +2106,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2121,7 +2121,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2136,7 +2136,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2151,7 +2151,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2166,7 +2166,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2181,7 +2181,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2196,7 +2196,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2211,7 +2211,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2226,7 +2226,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2241,7 +2241,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2256,7 +2256,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2271,7 +2271,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2286,7 +2286,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2301,7 +2301,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2316,7 +2316,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2331,7 +2331,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2346,7 +2346,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2361,7 +2361,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2376,7 +2376,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2391,7 +2391,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2877,7 +2877,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2892,7 +2892,7 @@
             <specialisatie/>
             <symboolcode id="vsg011">vsg011</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2907,7 +2907,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2922,7 +2922,7 @@
             <specialisatie/>
             <symboolcode id="vsgt019">vsgt019</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2937,7 +2937,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2952,7 +2952,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2967,7 +2967,7 @@
             <specialisatie/>
             <symboolcode id="vsg010">vsg010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2982,7 +2982,7 @@
             <specialisatie/>
             <symboolcode id="vsg030">vsg030</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -2997,7 +2997,7 @@
             <specialisatie/>
             <symboolcode id="vsg019">vsg019</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3012,7 +3012,7 @@
             <specialisatie/>
             <symboolcode id="vsg016">vsg016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3027,7 +3027,7 @@
             <specialisatie/>
             <symboolcode id="vsg003">vsg003</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3042,7 +3042,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3057,7 +3057,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3072,7 +3072,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3087,7 +3087,7 @@
             <specialisatie/>
             <symboolcode id="vsg016">vsg016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3102,7 +3102,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3117,7 +3117,7 @@
             <specialisatie/>
             <symboolcode id="vsg016">vsg016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3132,7 +3132,7 @@
             <specialisatie/>
             <symboolcode id="vsg010">vsg010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3147,7 +3147,7 @@
             <specialisatie/>
             <symboolcode id="vsg010">vsg010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3162,7 +3162,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3177,7 +3177,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3192,7 +3192,7 @@
             <specialisatie/>
             <symboolcode id="vsg005">vsg005</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3207,7 +3207,7 @@
             <specialisatie/>
             <symboolcode id="vsg002">vsg002</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3222,7 +3222,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3237,7 +3237,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3252,7 +3252,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3267,7 +3267,7 @@
             <specialisatie/>
             <symboolcode id="vsg018">vsg018</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3282,7 +3282,7 @@
             <specialisatie/>
             <symboolcode id="vsg007">vsg007</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3297,7 +3297,7 @@
             <specialisatie/>
             <symboolcode id="vsg008">vsg008</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3312,7 +3312,7 @@
             <specialisatie/>
             <symboolcode id="vsg002">vsg002</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3327,7 +3327,7 @@
             <specialisatie/>
             <symboolcode id="vsg002">vsg002</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3342,7 +3342,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3357,7 +3357,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3372,7 +3372,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3387,7 +3387,7 @@
             <specialisatie/>
             <symboolcode id="vsg003">vsg003</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3402,7 +3402,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3417,7 +3417,7 @@
             <specialisatie/>
             <symboolcode id="vsg010">vsg010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3432,7 +3432,7 @@
             <specialisatie/>
             <symboolcode id="vsg029">vsg029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3447,7 +3447,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3462,7 +3462,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3477,7 +3477,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3492,7 +3492,7 @@
             <specialisatie/>
             <symboolcode id="vsg011">vsg011</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3507,7 +3507,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3522,7 +3522,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3537,7 +3537,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3552,7 +3552,7 @@
             <specialisatie/>
             <symboolcode id="vsg022">vsg022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3567,7 +3567,7 @@
             <specialisatie/>
             <symboolcode id="vsg012">vsg012</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3582,7 +3582,7 @@
             <specialisatie/>
             <symboolcode id="vsg012">vsg012</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3597,7 +3597,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3612,7 +3612,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3627,7 +3627,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3642,7 +3642,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3657,7 +3657,7 @@
             <specialisatie/>
             <symboolcode id="vsg014">vsg014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3672,7 +3672,7 @@
             <specialisatie/>
             <symboolcode id="vsg013">vsg013</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3687,7 +3687,7 @@
             <specialisatie/>
             <symboolcode id="vsg014">vsg014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3702,7 +3702,7 @@
             <specialisatie/>
             <symboolcode id="vsg014">vsg014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3717,7 +3717,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3732,7 +3732,7 @@
             <specialisatie/>
             <symboolcode id="vsg022">vsg022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3747,7 +3747,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3762,7 +3762,7 @@
             <specialisatie/>
             <symboolcode id="vsg007">vsg007</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3777,7 +3777,7 @@
             <specialisatie/>
             <symboolcode id="vsg018">vsg018</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3792,7 +3792,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3807,7 +3807,7 @@
             <specialisatie/>
             <symboolcode id="vsg025">vsg025</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3822,7 +3822,7 @@
             <specialisatie/>
             <symboolcode id="vsg001">vsg001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3837,7 +3837,7 @@
             <specialisatie/>
             <symboolcode id="vsg007">vsg007</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3852,7 +3852,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3867,7 +3867,7 @@
             <specialisatie/>
             <symboolcode id="vsg030">vsg030</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3882,7 +3882,7 @@
             <specialisatie/>
             <symboolcode id="vsg014">vsg014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3897,7 +3897,7 @@
             <specialisatie/>
             <symboolcode id="vsg018">vsg018</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3912,7 +3912,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3927,7 +3927,7 @@
             <specialisatie/>
             <symboolcode id="vsg027">vsg027</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3942,7 +3942,7 @@
             <specialisatie/>
             <symboolcode id="vsg011">vsg011</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3957,7 +3957,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3972,7 +3972,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -3987,7 +3987,7 @@
             <specialisatie/>
             <symboolcode id="vsg019">vsg019</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4002,7 +4002,7 @@
             <specialisatie/>
             <symboolcode id="vsg027">vsg027</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4017,7 +4017,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4032,7 +4032,7 @@
             <specialisatie/>
             <symboolcode id="vsg005">vsg005</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4047,7 +4047,7 @@
             <specialisatie/>
             <symboolcode id="vsg005">vsg005</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4062,7 +4062,7 @@
             <specialisatie/>
             <symboolcode id="vsg004">vsg004</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4077,7 +4077,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4092,7 +4092,7 @@
             <specialisatie/>
             <symboolcode id="vsg010">vsg010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4107,7 +4107,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4122,7 +4122,7 @@
             <specialisatie/>
             <symboolcode id="vsg009">vsg009</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4137,7 +4137,7 @@
             <specialisatie/>
             <symboolcode id="vsg003">vsg003</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4152,7 +4152,7 @@
             <specialisatie/>
             <symboolcode id="vsg017">vsg017</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4167,7 +4167,7 @@
             <specialisatie/>
             <symboolcode id="vsg018">vsg018</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4182,7 +4182,7 @@
             <specialisatie/>
             <symboolcode id="vsg021">vsg021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4197,7 +4197,7 @@
             <specialisatie/>
             <symboolcode id="vsg014">vsg014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4212,7 +4212,7 @@
             <specialisatie/>
             <symboolcode id="vsg030">vsg030</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4227,7 +4227,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4242,7 +4242,7 @@
             <specialisatie/>
             <symboolcode id="vsg022">vsg022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4257,7 +4257,7 @@
             <specialisatie/>
             <symboolcode id="vsg022">vsg022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4272,7 +4272,7 @@
             <specialisatie/>
             <symboolcode id="vsg024">vsg024</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4287,7 +4287,7 @@
             <specialisatie/>
             <symboolcode id="vsg024">vsg024</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4302,7 +4302,7 @@
             <specialisatie/>
             <symboolcode id="vsg022">vsg022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4317,7 +4317,7 @@
             <specialisatie/>
             <symboolcode id="vsg006">vsg006</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4332,7 +4332,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4347,7 +4347,7 @@
             <specialisatie/>
             <symboolcode id="vsg026">vsg026</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4362,7 +4362,7 @@
             <specialisatie/>
             <symboolcode id="vsg027">vsg027</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4377,7 +4377,7 @@
             <specialisatie/>
             <symboolcode id="vsg007">vsg007</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4392,7 +4392,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4407,7 +4407,7 @@
             <specialisatie/>
             <symboolcode id="vsg028">vsg028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -4422,7 +4422,7 @@
             <specialisatie/>
             <symboolcode id="vsg024">vsg024</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5086,7 +5086,7 @@
             <specialisatie/>
             <symboolcode id="vsg016">vsg016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5101,7 +5101,7 @@
             <specialisatie/>
             <symboolcode id="vag523">vag523</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5116,7 +5116,7 @@
             <specialisatie/>
             <symboolcode id="vsg016">vsg016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5131,7 +5131,7 @@
             <specialisatie/>
             <symboolcode id="vag216">vag216</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5146,7 +5146,7 @@
             <specialisatie/>
             <symboolcode id="vag416">vag416</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5277,7 +5277,7 @@
             <specialisatie/>
             <symboolcode id="vsg029">vsg029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5292,7 +5292,7 @@
             <specialisatie/>
             <symboolcode id="vsg029">vsg029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5307,7 +5307,7 @@
             <specialisatie/>
             <symboolcode id="vag523">vag523</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5322,7 +5322,7 @@
             <specialisatie/>
             <symboolcode id="vsg029">vsg029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5550,7 +5550,7 @@
             <specialisatie/>
             <symboolcode id="vsgt114">vsgt114</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5640,7 +5640,7 @@
             <specialisatie/>
             <symboolcode id="vsgt002">vsgt002</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5655,7 +5655,7 @@
             <specialisatie/>
             <symboolcode id="vsgt123">vsgt123</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5698,7 +5698,7 @@
             <specialisatie/>
             <symboolcode id="vog013">vog013</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5713,7 +5713,7 @@
             <specialisatie/>
             <symboolcode id="vog007">vog007</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5728,7 +5728,7 @@
             <specialisatie/>
             <symboolcode id="vog004">vog004</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5743,7 +5743,7 @@
             <specialisatie/>
             <symboolcode id="vog011">vog011</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5758,7 +5758,7 @@
             <specialisatie/>
             <symboolcode id="vog003">vog003</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5773,7 +5773,7 @@
             <specialisatie/>
             <symboolcode id="vog002">vog002</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5788,7 +5788,7 @@
             <specialisatie/>
             <symboolcode id="vog010">vog010</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5803,7 +5803,7 @@
             <specialisatie/>
             <symboolcode id="vog026">vog026</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5818,7 +5818,7 @@
             <specialisatie/>
             <symboolcode id="vog019">vog019</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5833,7 +5833,7 @@
             <specialisatie/>
             <symboolcode id="vog000">vog000</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5848,7 +5848,7 @@
             <specialisatie/>
             <symboolcode id="vog014">vog014</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5863,7 +5863,7 @@
             <specialisatie/>
             <symboolcode id="vog001">vog001</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5878,7 +5878,7 @@
             <specialisatie/>
             <symboolcode id="vog016">vog016</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5893,7 +5893,7 @@
             <specialisatie/>
             <symboolcode id="vog021">vog021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5908,7 +5908,7 @@
             <specialisatie/>
             <symboolcode id="vog030">vog030</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5923,7 +5923,7 @@
             <specialisatie/>
             <symboolcode id="vog028">vog028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5938,7 +5938,7 @@
             <specialisatie/>
             <symboolcode id="vog024">vog024</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5953,7 +5953,7 @@
             <specialisatie/>
             <symboolcode id="vog022">vog022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5968,7 +5968,7 @@
             <specialisatie/>
             <symboolcode id="vog020">vog020</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5983,7 +5983,7 @@
             <specialisatie/>
             <symboolcode id="vog029">vog029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -5998,7 +5998,7 @@
             <specialisatie/>
             <symboolcode id="vog023">vog023</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6033,7 +6033,7 @@
             <specialisatie/>
             <symboolcode id="vsgt028">vsgt028</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6048,7 +6048,7 @@
             <specialisatie/>
             <symboolcode id="vsgt003">vsgt003</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6063,7 +6063,7 @@
             <specialisatie/>
             <symboolcode id="vsgt019">vsgt019</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6078,7 +6078,7 @@
             <specialisatie/>
             <symboolcode id="vsgt021">vsgt021</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6093,7 +6093,7 @@
             <specialisatie/>
             <symboolcode id="vsgt022">vsgt022</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6108,7 +6108,7 @@
             <specialisatie/>
             <symboolcode id="vsgt024">vsgt024</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6123,7 +6123,7 @@
             <specialisatie/>
             <symboolcode id="vsgt029">vsgt029</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6138,7 +6138,7 @@
             <specialisatie/>
             <symboolcode id="vsgt023">vsgt023</symboolcode>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6693,7 +6693,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6708,7 +6708,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6723,7 +6723,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6738,7 +6738,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6753,7 +6753,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6768,7 +6768,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6783,7 +6783,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6798,7 +6798,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6813,7 +6813,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6828,7 +6828,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6843,7 +6843,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6858,7 +6858,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6873,7 +6873,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6888,7 +6888,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>
@@ -6903,7 +6903,7 @@
             <specialisatie/>
             <symboolcode id=""/>
             <geldigheid>
-               <startdatum>2021-06-15</startdatum>
+               <startdatum>2021-06-29</startdatum>
                <einddatum/>
             </geldigheid>
          </waarde>

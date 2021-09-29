@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<waardelijsten><?vervang 2021-06-15?>
+<waardelijsten><?vervang 2021-06-29?>
    <versie>1.0.10</versie>
-   <?vervang 2021-06-15?>
+   <?vervang 2021-06-29?>
    <publicatiedatum>2021-06-10</publicatiedatum>
    <waardelijst>
       <label>activiteitengroep</label>
@@ -1304,7 +1304,7 @@
             <label>activiteitregelkwalificatie</label>
             <term>Activiteitregelkwalificatie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Activiteitregelkwalificatie</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Betreft begrippen gerelateerd aan plichten en verboden mbt activiteiten.</omschrijving>
             <toelichting/>
          </domein>
@@ -1475,7 +1475,7 @@
             <label>adressaat</label>
             <term>Adressaat</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Adressaat</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Betreft begrippen die het type bestuurslag of organisatie aanduiden.</omschrijving>
             <toelichting/>
          </domein>
@@ -1623,7 +1623,7 @@
             <label>beperkingengebied</label>
             <term>Beperkingengebied</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Beperkingengebied</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van beperkingengebiedgroep.</omschrijving>
             <toelichting/>
          </domein>
@@ -2405,7 +2405,7 @@
             <label>eenheid</label>
             <term>Eenheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Eenheid</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Betreft begrippen die eenheden aanduiden, d.w.z. de aanduiding van de combinatie eenheid en grootheid, waarin een kwantitiatieve waarde wordt uitgedrukt.</omschrijving>
             <toelichting/>
          </domein>
@@ -4437,7 +4437,7 @@
             <label>functie</label>
             <term>Functie</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Functie</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het juridische domein van functie.</omschrijving>
             <toelichting/>
          </domein>
@@ -5162,7 +5162,7 @@
             <label>landschap</label>
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van cultureel erfgoed en landschap.</omschrijving>
             <toelichting/>
          </domein>
@@ -5339,7 +5339,7 @@
             <label>lucht</label>
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen gerelateerd aan het inhoudelijke (thematische/sectorale) domein van lucht en lucht.</omschrijving>
             <toelichting/>
          </domein>
@@ -5556,7 +5556,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vgst114">vgst114</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -5647,7 +5647,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vgst002">vgst002</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -5663,7 +5663,7 @@
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2016156</bron>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <symboolcode id="vgst123">vgst123</symboolcode>
             <geldigheid>
                <startdatum>2021-02-09</startdatum>
@@ -6004,7 +6004,7 @@
             <label>omgevingsnorm</label>
             <term>Omgevingsnorm</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingsnorm</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die een kwalitatieve of kwantitatieve normering aanduiden, waarbij deze geen omgevingswaarde vormen, maar waar deze wel grondslag vormen voor regelgeving en beleid.</omschrijving>
             <toelichting/>
          </domein>
@@ -6145,7 +6145,7 @@
             <label>omgevingswaarde</label>
             <term>Omgevingswaarde</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Omgevingswaarde</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <omschrijving>Begrippen die een classificering van omgevingswaarden aanduiden.</omschrijving>
             <toelichting/>
          </domein>
@@ -6676,11 +6676,11 @@
       <label>thema</label>
       <term>Thema</term>
       <uri>http://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema</uri>
-      <?vervang 2021-06-15?>
+      <?vervang 2021-06-29?>
       <type>uitbreidbaar</type>
       <omschrijving>Waardelijst voor attribuut thema bij Juridische regel en Tekstdeel.</omschrijving>
       <toelichting/>
-      <waarden><?verwijder 2021-06-15?>
+      <waarden><?verwijder 2021-06-29?>
          <waarde>
             <label>bereikbaarheid</label>
             <term>Bereikbaarheid</term>
@@ -6696,7 +6696,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>biodiversiteit</label>
             <term>Biodiversiteit</term>
@@ -6717,10 +6717,10 @@
             <term>Bodem</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bodem/id/concept/Bodem</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bodem als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bodem</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6734,10 +6734,10 @@
             <term>Bouwwerken</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/bouwwerken/id/concept/Bouwwerken</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gaan over bouwwerken.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Bouwwerken</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6746,7 +6746,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>circulaire economie</label>
             <term>CirculaireEconomie</term>
@@ -6762,7 +6762,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>cultureel erfgoed</label>
             <term>CultureelErfgoed</term>
@@ -6783,10 +6783,10 @@
             <term>CultureelErfgoed</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/CultureelErfgoed</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op bescherming van cultureel erfgoed.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/CultureelErfgoed</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6795,7 +6795,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>cultureel erfgoed en landschap</label>
             <term>CultureelErfgoedEnLandschap</term>
@@ -6811,7 +6811,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>duurzaamheid</label>
             <term>Duurzaamheid</term>
@@ -6827,7 +6827,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>economisch vestigingsklimaat</label>
             <term>EconomischVestigingsklimaat</term>
@@ -6848,10 +6848,10 @@
             <term>EnergieEnNatuurlijkeHulpbronnen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/energieennatuurlijkehulpbronnen/id/concept/EnergieEnNatuurlijkeHulpbronnen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de benutting en bescherming van de energievoorziening en de natuurlijke hulpbronnen.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/EnergieEnNatuurlijkeHulpbronnen</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6860,7 +6860,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>energietransitie</label>
             <term>Energietransitie</term>
@@ -6876,7 +6876,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>externe veiligheid</label>
             <term>ExterneVeiligheid</term>
@@ -6897,10 +6897,10 @@
             <term>ExterneVeiligheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/thema/id/concept/ExterneVeiligheid</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van  de externe veiligheid.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron>http://standaarden.omgevingswet.overheid.nl/id/bibliographicresource/Staatsblad2018292</bron>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/ExterneVeiligheid</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6914,10 +6914,10 @@
             <term>Geluid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/geluid/id/concept/Geluid</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het tegengaan van geluidhinder.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Geluid</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -6926,7 +6926,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geur</label>
             <term>Geur</term>
@@ -6942,7 +6942,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geur van agrarische activiteiten</label>
             <term>GeurVanAgrarischeActiviteiten</term>
@@ -6958,7 +6958,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geur van industriële activiteiten</label>
             <term>GeurVanIndustrieleActiviteiten</term>
@@ -6974,7 +6974,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geur van rwzi's</label>
             <term>GeurVanRwziS</term>
@@ -6994,12 +6994,12 @@
             <label>gezondheid</label>
             <term>Gezondheid</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/gezondheid/id/concept/Gezondheid</uri>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het waarborgen van de gezondheidsapecten van de leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Gezondheid</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7013,10 +7013,10 @@
             <term>Infrastructuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/infrastructuur/id/concept/Infrastructuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de infrastructuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Infrastructuur</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7025,7 +7025,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>klimaat</label>
             <term>Klimaat</term>
@@ -7041,7 +7041,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>klimaatadaptatie</label>
             <term>Klimaatadaptatie</term>
@@ -7057,7 +7057,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>landbouw</label>
             <term>Landbouw</term>
@@ -7073,7 +7073,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>landelijke functies</label>
             <term>LandelijkeFuncties</term>
@@ -7094,10 +7094,10 @@
             <term>Landgebruik</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landgebruik/id/concept/Landgebruik</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op het aspect landgebruik.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landgebruik</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7111,10 +7111,10 @@
             <term>Landschap</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/landschap/id/concept/Landschap</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op de bescherming en ontwikkeling van het landschap.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Landschap</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7123,7 +7123,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>logistiek</label>
             <term>Logistiek</term>
@@ -7144,10 +7144,10 @@
             <term>Lucht</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/lucht/id/concept/Lucht</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op lucht als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Lucht</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7156,7 +7156,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>luchtkwaliteit</label>
             <term>Luchtkwaliteit</term>
@@ -7177,10 +7177,10 @@
             <term>MilieuAlgemeen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/milieualgemeen/id/concept/MilieuAlgemeen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op risico's voor het milieu in algemene zin.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/MilieuAlgemeen</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7189,7 +7189,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>milieu algemeen en overige milieuaspecten</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspecten</term>
@@ -7210,10 +7210,10 @@
             <term>Natuur</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/natuur/id/concept/Natuur</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op natuur als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Natuur</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7222,7 +7222,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurbescherming</label>
             <term>Natuurbescherming</term>
@@ -7238,7 +7238,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurlijke hulpbronnen</label>
             <term>NatuurlijkeHulpbronnen</term>
@@ -7259,10 +7259,10 @@
             <term>Procedures</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/procedures/id/concept/Procedures</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op procedures.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/Procedures</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7271,7 +7271,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>recreatie en toerisme</label>
             <term>RecreatieEnToerisme</term>
@@ -7287,7 +7287,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>regionale samenwerking</label>
             <term>RegionaleSamenwerking</term>
@@ -7303,7 +7303,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>regionale woonagenda</label>
             <term>RegionaleWoonagenda</term>
@@ -7319,7 +7319,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>ruimtelijke kwaliteit</label>
             <term>RuimtelijkeKwaliteit</term>
@@ -7335,7 +7335,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>stedelijke functies</label>
             <term>StedelijkeFuncties</term>
@@ -7351,7 +7351,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>toegankelijkheid</label>
             <term>Toegankelijkheid</term>
@@ -7367,7 +7367,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>veiligheid</label>
             <term>Veiligheid</term>
@@ -7383,7 +7383,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>water en watersysteem</label>
             <term>WaterEnWatersysteem</term>
@@ -7404,10 +7404,10 @@
             <term>WaterEnWatersystemen</term>
             <uri>http://standaarden.omgevingswet.overheid.nl/waterenwatersystemen/id/concept/WaterEnWatersystemen</uri>
             <definitie>Kenmerk dat aangeeft dat de regels of het beleid gericht zijn op water en watersystemen als aspect van de fysieke leefomgeving.</definitie>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <toelichting>Deze waarde kan gebruikt worden.</toelichting>
             <bron/>
-            <?vervang 2021-06-15?>
+            <?vervang 2021-06-29?>
             <domein>http://standaarden.omgevingswet.overheid.nl/id/conceptscheme/WaterEnWatersystemen</domein>
             <specialisatie/>
             <symboolcode id=""/>
@@ -7416,7 +7416,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>woon- en leefklimaat</label>
             <term>WoonEnLeefklimaat</term>
@@ -7432,7 +7432,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>aardkundige waarden</label>
             <term>BodemAardkundigeWaarden</term>
@@ -7448,7 +7448,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bodemdaling</label>
             <term>BodemBodemdaling</term>
@@ -7464,7 +7464,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bodemkwaliteit</label>
             <term>BodemBodemkwaliteit</term>
@@ -7480,7 +7480,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>gesloten of voormalige stortplaats</label>
             <term>BodemGeslotenOfVoormaligeStortplaats</term>
@@ -7496,7 +7496,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>ontgrondingen</label>
             <term>BodemOntgrondingen</term>
@@ -7512,7 +7512,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>open stortplaats</label>
             <term>BodemOpenStortplaats</term>
@@ -7528,7 +7528,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>asbestverwijdering</label>
             <term>BouwwerkenAsbestverwijdering</term>
@@ -7544,7 +7544,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bestaande bouw</label>
             <term>BouwwerkenBestaandeBouw</term>
@@ -7560,7 +7560,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bouwwerkinstallaties</label>
             <term>BouwwerkenBouwwerkinstallaties</term>
@@ -7576,7 +7576,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bouwwerkzaamheden</label>
             <term>BouwwerkenBouwwerkzaamheden</term>
@@ -7592,7 +7592,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>brandveilig gebruik bouwwerken</label>
             <term>BouwwerkenBrandveiligGebruikBouwwerken</term>
@@ -7608,7 +7608,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bruikbaarheid</label>
             <term>BouwwerkenBruikbaarheid</term>
@@ -7624,7 +7624,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>energielabel</label>
             <term>BouwwerkenEnergielabel</term>
@@ -7640,7 +7640,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>gebruik van bouwwerken</label>
             <term>BouwwerkenGebruikVanBouwwerken</term>
@@ -7656,7 +7656,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>gebruiksfunctiewijziging</label>
             <term>BouwwerkenGebruiksfunctiewijziging</term>
@@ -7672,7 +7672,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>gezondheid</label>
             <term>BouwwerkenGezondheid</term>
@@ -7688,7 +7688,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>nieuwbouw</label>
             <term>BouwwerkenNieuwbouw</term>
@@ -7704,7 +7704,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>ruimtelijke aspecten</label>
             <term>BouwwerkenRuimtelijkeAspecten</term>
@@ -7720,7 +7720,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>sloopwerkzaamheden</label>
             <term>BouwwerkenSloopwerkzaamheden</term>
@@ -7736,7 +7736,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>tijdelijke bouwwerken</label>
             <term>BouwwerkenTijdelijkeBouwwerken</term>
@@ -7752,7 +7752,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>toegankelijkheid</label>
             <term>BouwwerkenToegankelijkheid</term>
@@ -7768,7 +7768,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>veiligheid</label>
             <term>BouwwerkenVeiligheid</term>
@@ -7784,7 +7784,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>verbouw</label>
             <term>BouwwerkenVerbouw</term>
@@ -7800,7 +7800,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>verplaatsen van bouwwerken</label>
             <term>BouwwerkenVerplaatsenVanBouwwerken</term>
@@ -7816,7 +7816,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>archeologie</label>
             <term>CultureelErfgoedEnLandschapArcheologie</term>
@@ -7832,7 +7832,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>beschermd stads- en dorpsgezicht</label>
             <term>CultureelErfgoedEnLandschapBeschermdStadsEnDorpsgezicht</term>
@@ -7848,7 +7848,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>cultureel erfgoed</label>
             <term>CultureelErfgoedEnLandschapCultureelErfgoed</term>
@@ -7864,7 +7864,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>cultuurlandschappen</label>
             <term>CultureelErfgoedEnLandschapCultuurlandschappen</term>
@@ -7880,7 +7880,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>werelderfgoed</label>
             <term>CultureelErfgoedEnLandschapWerelderfgoed</term>
@@ -7896,7 +7896,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>duurzaamheid</label>
             <term>BouwwerkenDuurzaamheid</term>
@@ -7912,7 +7912,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geluid van activiteiten</label>
             <term>GeluidGeluidVanActiviteiten</term>
@@ -7928,7 +7928,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geluid van industrieterreinen</label>
             <term>GeluidGeluidVanIndustrieterreinen</term>
@@ -7944,7 +7944,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geluid van luchthavens en luchtvaart</label>
             <term>GeluidGeluidVanLuchthavensEnLuchtvaart</term>
@@ -7960,7 +7960,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geluid van spoorwegen</label>
             <term>GeluidGeluidVanSpoorwegen</term>
@@ -7976,7 +7976,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geluid van wegen</label>
             <term>GeluidGeluidVanWegen</term>
@@ -7992,7 +7992,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>energieopwekking</label>
             <term>InfrastructuurEnergieopwekking</term>
@@ -8008,7 +8008,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>fietsinfrastructuur en wandelpaden</label>
             <term>InfrastructuurFietsinfrastructuurEnWandelpaden</term>
@@ -8024,7 +8024,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>hoogspanningsnet</label>
             <term>InfrastructuurHoogspanningsnet</term>
@@ -8040,7 +8040,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>kabels en leidingen</label>
             <term>InfrastructuurKabelsEnLeidingen</term>
@@ -8056,7 +8056,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>leidingen</label>
             <term>InfrastructuurLeidingen</term>
@@ -8072,7 +8072,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>luchthavens</label>
             <term>InfrastructuurLuchthavens</term>
@@ -8088,7 +8088,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>militaire infrastructuur</label>
             <term>InfrastructuurMilitaireInfrastructuur</term>
@@ -8104,7 +8104,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>spoorwegen</label>
             <term>InfrastructuurSpoorwegen</term>
@@ -8120,7 +8120,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>vaarwegen</label>
             <term>InfrastructuurVaarwegen</term>
@@ -8136,7 +8136,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>wegen</label>
             <term>InfrastructuurWegen</term>
@@ -8152,7 +8152,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>klimaatmitigatie</label>
             <term>KlimaatKlimaatmitigatie</term>
@@ -8168,7 +8168,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>glastuinbouw</label>
             <term>LandbouwGlastuinbouw</term>
@@ -8184,7 +8184,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>veehouderij</label>
             <term>LandbouwVeehouderij</term>
@@ -8200,7 +8200,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>vollegrondteelt</label>
             <term>LandbouwVollegrondteelt</term>
@@ -8216,7 +8216,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurbegraven</label>
             <term>LandelijkeFunctiesNatuurbegraven</term>
@@ -8232,7 +8232,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>vrijkomende (agrarische) bebouwing</label>
             <term>LandelijkeFunctiesVrijkomendeAgrarischeBebouwing</term>
@@ -8248,7 +8248,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bijzonder reliëf landschap</label>
             <term>LandschapBijzonderReliefLandschap</term>
@@ -8264,7 +8264,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>kleinschalig besloten landschap</label>
             <term>LandschapKleinschaligBeslotenLandschap</term>
@@ -8280,7 +8280,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>landschappelijke waarden</label>
             <term>LandschapLandschappelijkeWaarden</term>
@@ -8296,7 +8296,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>waardevol open landschap</label>
             <term>LandschapWaardevolOpenLandschap</term>
@@ -8312,7 +8312,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>afval</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspectenAfval</term>
@@ -8328,7 +8328,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>algemeen</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspectenAlgemeen</term>
@@ -8344,7 +8344,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>energie</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspectenEnergie</term>
@@ -8360,7 +8360,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>lichthinder</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspectenLichthinder</term>
@@ -8376,7 +8376,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>trillingen</label>
             <term>MilieuAlgemeenEnOverigeMilieuaspectenTrillingen</term>
@@ -8392,7 +8392,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>ecologie</label>
             <term>NatuurbeschermingEcologie</term>
@@ -8408,7 +8408,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurbeheer</label>
             <term>NatuurbeschermingNatuurbeheer</term>
@@ -8424,7 +8424,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurgebieden</label>
             <term>NatuurbeschermingNatuurgebieden</term>
@@ -8440,7 +8440,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>natuurnetwerk</label>
             <term>NatuurbeschermingNatuurnetwerk</term>
@@ -8456,7 +8456,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>overige natuur</label>
             <term>NatuurbeschermingOverigeNatuur</term>
@@ -8472,7 +8472,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>biomassa</label>
             <term>NatuurlijkeHulpbronnenBiomassa</term>
@@ -8488,7 +8488,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bodemenergiesystemen</label>
             <term>NatuurlijkeHulpbronnenBodemenergiesystemen</term>
@@ -8504,7 +8504,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>geothermie</label>
             <term>NatuurlijkeHulpbronnenGeothermie</term>
@@ -8520,7 +8520,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>mijnbouw</label>
             <term>NatuurlijkeHulpbronnenMijnbouw</term>
@@ -8536,7 +8536,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>waterkracht</label>
             <term>NatuurlijkeHulpbronnenWaterkracht</term>
@@ -8552,7 +8552,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>wind</label>
             <term>NatuurlijkeHulpbronnenWind</term>
@@ -8568,7 +8568,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>zon</label>
             <term>NatuurlijkeHulpbronnenZon</term>
@@ -8584,7 +8584,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>financiele zekerheid</label>
             <term>ProceduresFinancieleZekerheid</term>
@@ -8600,7 +8600,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>handhaving en uitvoering</label>
             <term>ProceduresHandhavingEnUitvoering</term>
@@ -8616,7 +8616,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>heffingen</label>
             <term>ProceduresHeffingen</term>
@@ -8632,7 +8632,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>kostenverhaal</label>
             <term>ProceduresKostenverhaal</term>
@@ -8648,7 +8648,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>milieueffectrapportage</label>
             <term>ProceduresMilieueffectrapportage</term>
@@ -8664,7 +8664,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>monitoring</label>
             <term>ProceduresMonitoring</term>
@@ -8680,7 +8680,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>overgangsrecht</label>
             <term>ProceduresOvergangsrecht</term>
@@ -8696,7 +8696,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>procedure projectprocedure</label>
             <term>ProceduresProcedureProjectprocedure</term>
@@ -8712,7 +8712,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>procedures aanwijzing locaties rijkstaken</label>
             <term>ProceduresProceduresAanwijzingLocatiesRijkstaken</term>
@@ -8728,7 +8728,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>procedures bevoegd gezag en betrokkenheid omgevingsvergunning</label>
             <term>ProceduresProceduresBevoegdGezagEnBetrokkenheidOmgevingsvergunning</term>
@@ -8744,7 +8744,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>procedures digitaal stelsel omgevingswet</label>
             <term>ProceduresProceduresDigitaalStelselOmgevingswet</term>
@@ -8760,7 +8760,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>schade</label>
             <term>ProceduresSchade</term>
@@ -8776,7 +8776,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>voorkeursrecht en onteigening</label>
             <term>ProceduresVoorkeursrechtEnOnteigening</term>
@@ -8792,7 +8792,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>dagrecreatie</label>
             <term>RecreatieEnToerismeDagrecreatie</term>
@@ -8808,7 +8808,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>fiets en wandelroutes</label>
             <term>RecreatieEnToerismeFietsEnWandelroutes</term>
@@ -8824,7 +8824,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>jachthaven</label>
             <term>RecreatieEnToerismeJachthaven</term>
@@ -8840,7 +8840,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>kleinschalige recreatie</label>
             <term>RecreatieEnToerismeKleinschaligeRecreatie</term>
@@ -8856,7 +8856,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>leisure</label>
             <term>RecreatieEnToerismeLeisure</term>
@@ -8872,7 +8872,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>recreatiewoning</label>
             <term>RecreatieEnToerismeRecreatiewoning</term>
@@ -8888,7 +8888,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>toerisme</label>
             <term>RecreatieEnToerismeToerisme</term>
@@ -8904,7 +8904,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>verblijfsrecreatie</label>
             <term>RecreatieEnToerismeVerblijfsrecreatie</term>
@@ -8920,7 +8920,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>bedrijventerreinen</label>
             <term>StedelijkeFunctiesBedrijventerreinen</term>
@@ -8936,7 +8936,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>detailhandel</label>
             <term>StedelijkeFunctiesDetailhandel</term>
@@ -8952,7 +8952,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>ruimte voor toekomstige functies</label>
             <term>StedelijkeFunctiesRuimteVoorToekomstigeFuncties</term>
@@ -8968,7 +8968,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>voorzieningen</label>
             <term>StedelijkeFunctiesVoorzieningen</term>
@@ -8984,7 +8984,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>wonen</label>
             <term>StedelijkeFunctiesWonen</term>
@@ -9000,7 +9000,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>gebouwen</label>
             <term>ToegankelijkheidGebouwen</term>
@@ -9016,7 +9016,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>openbare buitenruimte</label>
             <term>ToegankelijkheidOpenbareBuitenruimte</term>
@@ -9032,7 +9032,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>externe veiligheid</label>
             <term>VeiligheidExterneVeiligheid</term>
@@ -9048,7 +9048,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>risico's van branden, rampen en crises</label>
             <term>VeiligheidRisicoSVanBrandenRampenEnCrises</term>
@@ -9064,7 +9064,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>drinkwater</label>
             <term>WaterEnWatersysteemDrinkwater</term>
@@ -9080,7 +9080,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>grondwater (bescherming)</label>
             <term>WaterEnWatersysteemGrondwaterBescherming</term>
@@ -9096,7 +9096,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>marien</label>
             <term>WaterEnWatersysteemMarien</term>
@@ -9112,7 +9112,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>oppervlaktewater (bescherming)</label>
             <term>WaterEnWatersysteemOppervlaktewaterBescherming</term>
@@ -9128,7 +9128,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>wateroverlast</label>
             <term>WaterEnWatersysteemWateroverlast</term>
@@ -9144,7 +9144,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>waterschaarste</label>
             <term>WaterEnWatersysteemWaterschaarste</term>
@@ -9160,7 +9160,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>watersystemen</label>
             <term>WaterEnWatersysteemWatersystemen</term>
@@ -9176,7 +9176,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>waterveiligheid</label>
             <term>WaterEnWatersysteemWaterveiligheid</term>
@@ -9192,7 +9192,7 @@
                <einddatum/>
             </geldigheid>
          </waarde>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <waarde>
             <label>zwemwaterkwaliteit</label>
             <term>WaterEnWatersysteemZwemwaterkwaliteit</term>
@@ -9519,7 +9519,7 @@
             <toelichting/>
          </domein>
       </domeinen>
-      <bronnen><?verwijder 2021-06-15?>
+      <bronnen><?verwijder 2021-06-29?>
          <bron>
             <titel>Staatsblad 2018, 290</titel>
             <term>Staatsblad2018290</term>
@@ -9527,7 +9527,7 @@
             <omschrijving>Besluit van 3 juli 2018, houdende procedurele regels en regels over algemene onderwerpen over het beschermen en benutten van de fysieke leefomgeving (Omgevingsbesluit)</omschrijving>
             <href>https://zoek.officielebekendmakingen.nl/stb-2018-290.html</href>
          </bron>
-         <?verwijder 2021-06-15?>
+         <?verwijder 2021-06-29?>
          <bron>
             <titel>Staatsblad 2018, 291</titel>
             <term>Staatsblad2018291</term>

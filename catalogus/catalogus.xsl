@@ -101,7 +101,9 @@
                 <xsl:value-of select="./toelichting"/>
               </xsl:element>
               <xsl:element name="isSpecialisatieVan">
-                <xsl:value-of select="./specialisatie"/>
+                <xsl:element name="element">
+                  <xsl:value-of select="./specialisatie"/>
+                </xsl:element>
               </xsl:element>
               <xsl:if test="./bron">
                 <xsl:element name="bronnen">
@@ -146,10 +148,10 @@
 
   <xsl:template name="bibliographicresource">
     <!-- alle bronnen zijn dct:BibliographicResource -->
-    <xsl:for-each select="fn:distinct-values($waardelijsten//waarde[./bron ne '']/concat(./bron,'|',./geldigheid/startdatum))">
-      <xsl:variable name="uri" select="fn:tokenize(.,'\|')[1]"/>
-      <xsl:variable name="startdatum" select="fn:tokenize(.,'\|')[2]"/>
-      <xsl:variable name="bron" select="($waardelijsten//waardelijst[//waarde[./bron=$uri][./geldigheid/startdatum=$startdatum]]//bron[./uri=$uri])[last()]"/>
+    <xsl:for-each select="fn:distinct-values($waardelijsten//waarde[./bron ne '']/bron)">
+      <xsl:variable name="uri" select="."/>
+      <xsl:variable name="startdatum" select="($waardelijsten//waarde[./bron eq $uri])[1]/geldigheid/startdatum"/>
+      <xsl:variable name="bron" select="($waardelijsten//bron[./uri=$uri])[last()]"/>
       <xsl:element name="element">
         <xsl:attribute name="type" select="string('dct:BibliographicResource')"/>
         <xsl:element name="uri">
@@ -227,7 +229,9 @@
           <xsl:value-of select="$waarde/toelichting"/>
         </xsl:element>
         <xsl:element name="isSpecialisatieVan">
-          <xsl:value-of select="$waarde/specialisatie"/>
+          <xsl:element name="element">
+            <xsl:value-of select="$waarde/specialisatie"/>
+          </xsl:element>
         </xsl:element>
         <xsl:if test="$waarde/bron">
           <xsl:element name="bronnen">
